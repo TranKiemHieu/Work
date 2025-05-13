@@ -1,0 +1,17 @@
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Application.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Application.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Release\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Applicat.44B5EDA2.Up2Date
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\refint\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\Application.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Release\net7.0\ref\Application.dll

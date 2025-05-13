@@ -1,0 +1,9 @@
+﻿@model System.Security.Claims.ClaimsIdentity
+
+<div class="user-manager">
+    <div class="user-info">
+        <span class="user-name">@Model.Name</span>
+        <span class="role-user">@Model.FindFirst("DisplayName").Value</span>
+    </div>
+    <a href="/sso/dangnhap/logout"><i class="icon icon-sign-out"></i></a>
+</div>

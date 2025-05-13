@@ -1,0 +1,90 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+<style>
+
+    #tree-list-container {
+        min-height: 700px;
+    }
+
+    #treeView {
+        max-height: 700px;
+    }
+
+</style>
+<div class="content-header row">
+    <div class="content-header-left col-md-12">
+        <h3 class="content-header-title mb-0">Phân quyền chuyên mục</h3>
+    </div>
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="form-group col-xl-3 col-lg-5 col-md-6">
+                <div class="search-group">
+                    <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                    <i class="icon-fluent icon_fluent_search_filled icon-search" id="tim-kiem"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper">
+            <div id="tree-list-container" class="container-fluid">
+                <div id="treeView"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Model phân quyền-->
+<div class="modal right fade" id="modalEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Cập nhật phân quyền <span id="tenEdit"></span></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <input type="hidden" id="idEdit" />
+                    <div class="form-group">
+                        <label for="select_User1Edit" class="form-label">Quyền cập nhật thông tin và hiệu chỉnh các bản tin do mình cập nhật	</label>
+                        <select id="select_User1Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select_User2Edit" class="form-label">Quyền hiệu chỉnh thông tin</label>
+                        <select id="select_User2Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select_User3Edit" class="form-label">Quyền duyệt thông tin</label>
+                        <select id="select_User3Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                    <div class="form-check form-check-inline align-items-baseline">
+                        <input class="form-check-input" type="checkbox" name="apDungEdit" id="apDungEdit" />
+                        <label class="form-check-label" for="apDungEdit">Áp dụng phân quyền cho tất cả chuyên mục con hiện có của chuyên mục này</label>
+                    </div>
+                  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="button" id="btn-edit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+@section Scripts {
+    <script>
+        const canEdit = @Model.PermittedEdit;
+        const canDelete = @Model.PermittedDelete;
+    </script>
+   
+    <script src="~/PageScripts/admin/PhanQuyenCM.js"></script>
+
+}

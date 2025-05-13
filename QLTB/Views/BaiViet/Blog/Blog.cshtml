@@ -1,0 +1,54 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container container-main-content">
+        <div class="row mb-2">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div class="col-lg-8">
+                @* <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a> *@
+                <div id="section-main-contents"></div>
+            </div>
+            <div id="GridLeft" class="col-lg-4">
+                <div class="col-md-12">
+                    <div id="section-row-1"></div>
+                </div>
+                <div class="col-md-12">
+                    <div id="section-row-2"></div>
+                </div>
+                <div class="col-md-12">
+                    <div id="section-sidebar-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 slideTinBaiKhac">
+                <div id="section-bottom"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const urlChuyenMuc = '@ViewBag.Url';
+        const viewCapCha = '@ViewBag.ViewID';
+    </script>
+    <script src="~/PageScripts/app/Blog.js" asp-append-version="true"></script>
+    
+}

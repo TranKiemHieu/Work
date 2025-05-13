@@ -1,0 +1,17 @@
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Persistence.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Persistence.runtimeconfig.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Release\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persiste.61C28332.Up2Date
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\refint\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\Persistence.genruntimeconfig.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Release\net7.0\ref\Persistence.dll

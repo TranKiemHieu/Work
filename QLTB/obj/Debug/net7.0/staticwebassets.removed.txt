@@ -1,0 +1,17 @@
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\Blog.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTiet_Blog.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTiet_DichVu.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTiet_SanPham.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTiet_TinTuc.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTiet_TuyenDung.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ChiTietBaiViet.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\DanhSach_TinTuc.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\DanhSachBaiViet.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\DichVu.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\GioiThieu.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\HomePage.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\Resource.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\ResourceDetail.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\SanPham.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\TinTuc.js
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\wwwroot\PageScripts\app\TuyenDung.js

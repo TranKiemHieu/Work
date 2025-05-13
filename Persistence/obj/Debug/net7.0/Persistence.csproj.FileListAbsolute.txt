@@ -1,0 +1,68 @@
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Persistence\obj\Debug\net7.0\Persiste.61C28332.Up2Date
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persiste.61C28332.Up2Date
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persiste.61C28332.Up2Date
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\ref\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.deps.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.runtimeconfig.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Persistence.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\bin\Debug\net7.0\Domain.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persiste.61C28332.Up2Date
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.genruntimeconfig.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\ref\Persistence.dll

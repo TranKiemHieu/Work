@@ -1,0 +1,461 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+
+@section Css {
+    <style>
+        div.custom-treeview-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+}
+
+<div class="content-header row">
+    <div class="content-header-left col-md-9">
+        <h3 class="content-header-title mb-0">@ViewBag.PageTitle</h3>
+    </div>
+    <div class="content-header-right text-md-right col-md-3">
+        <a type="button" class="btn btn-outline-light" asp-area="AdminTool" asp-controller="BaiViet" asp-action="Index">Quay lại</a>
+    </div>
+</div>
+<!-- Tabs navs -->
+<ul class="nav nav-tabs" id="distribution-tab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="noiDung" data-toggle="tab" href="#noiDungContent" role="tab" aria-controls="noiDungContent" aria-selected="true">Nội dung</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="media" data-toggle="tab" href="#mediaContent" role="tab" aria-controls="mediaContent" aria-selected="false">Media</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="tinLienQuan" data-toggle="tab" href="#tinLienQuanContent" role="tab" aria-controls="tinLienQuan" aria-selected="false">Tin liên quan</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="lienHe" data-toggle="tab" href="#lienHeContent" role="tab" aria-controls="lienHe" aria-selected="false">Liên hệ</a>
+    </li>
+</ul>
+
+<!-- Tabs content -->
+<div class="tab-content" id="distribution-content">
+    <div class="tab-pane fade show active" id="noiDungContent" role="tabpanel" aria-labelledby="noiDung">
+        <div class="form-container">
+            <form role="form" id="formEdit">
+                <div class="form-row">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label for="tieuDeEdit" class="form-label">Tiêu đề <span class="text-red">*</span></label>
+                            <input type="text" id="tieuDeEdit" class="form-control" maxlength="300">
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="chuyenMucEdit" class="form-label">Chuyên mục <span class="text-red">*</span></label>
+                                <div id="dropdownBox"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="chuyenMucKhacEdit" class="form-label">Chuyên mục khác</label>
+                                <div class="form-control" id="dropdownBox_cmk"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3 row">
+                        <div class="form-group col-md-6">
+                            <label for="anhDaiDienImgEdit" class="form-label">Ảnh đại diện</label>
+                            <div class="immagePreview" id="anhDaiDienImgEdit">
+                                <img src="/assets/images/icons/imageUpload.png" class="cursor-pointer" />
+                                @if (!string.IsNullOrWhiteSpace(ViewBag.Id) && (Model.PermittedEdit > 0 || Model.PermittedCreate > 0))
+                                {
+                                    <i class="icon-fluent icon_fluent_dismiss_circle_filled delete-command-btn d-none" id="anhDaiDienImgDelete"></i>
+                                }
+                            </div>
+                            <div class="immagePreview" id="anhDaiDienImgEditPreview"></div>
+                            <input type="file" id="anhDaiDienEdit" class="form-control d-none" accept="image/*">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="thumbnailImgEdit" class="form-label">Thumbnail</label>
+                            <div class="immagePreview" id="thumbnailImgEdit">
+                                <img src="/assets/images/icons/imageUpload.png" class="cursor-pointer" />
+                                @if (!string.IsNullOrWhiteSpace(ViewBag.Id) && (Model.PermittedEdit > 0 || Model.PermittedCreate > 0))
+                                {
+                                    <i class="icon-fluent icon_fluent_dismiss_circle_filled delete-command-btn d-none" id="thumbnailDelete"></i>
+                                }
+                            </div>
+                            <div class="immagePreview" id="thumbnailEditPreview"></div>
+
+                        </div>
+                        <input type="file" id="thumbnailEdit" class="form-control d-none" accept="image/*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-9">
+                        <label for="moTaAnhDaiDienEdit" class="form-label">Mô tả ảnh đại diện</label>
+                        <input type="text" id="moTaAnhDaiDienEdit" class="form-control" maxlength="300">
+                    </div>
+                    <div class="form-group col-md-3" style="margin-top: auto">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="tieuDiemEdit" id="tieuDiemEdit">
+                            <label class="form-check-label" for="tieuDiemEdit">Tiêu điểm</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tomTatEdit" class="form-label">Tóm tắt</label>
+                    <textarea id="tomTatEdit" class="form-control" cols="30" rows="5" maxlength="1000"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="noiDungEdit" class="form-label">Nội dung <span class="text-red">*</span></label>
+                    <textarea id="noiDungEdit" class="form-control" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="nguonTinEdit">Nguồn tin</label>
+                        <input type="text" id="nguonTinEdit" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="tacGiaEdit">Tác giả</label>
+                        <input type="text" id="tacGiaEdit" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="tacQuyenEdit">Tác quyền</label>
+                        <input type="text" id="tacQuyenEdit" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="tuKhoaEdit">Từ khóa</label>
+                        <input type="text" id="tuKhoaEdit" class="form-control">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label for="ngonNguEdit">Ngôn ngữ</label>
+                        <select id="ngonNguEdit" class="form-control">
+                            <option value="Tiếng việt (Việt Nam)">Tiếng việt (Việt Nam)</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="ngayCongBoEdit" class="form-label">Ngày công bố</label>
+                        <div class="input-group date dd-mm-yyyy">
+                            <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="ngayCongBoEdit">
+                            <div class="input-group-addon input-group-append">
+                                <div class="input-group-text">
+                                    <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="ngayCongBoEdit" class="form-label">Hết hạn công bố</label>
+                        <div class="input-group date dd-mm-yyyy">
+                            <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="hetHanCongBoEdit">
+                            <div class="input-group-addon input-group-append">
+                                <div class="input-group-text">
+                                    <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label class="form-label">Trạng thái</label>
+                        <div class="group-check group-check-inline">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="trangThaiEdit" value="1" id="trangThaiEdit1" checked>
+                                <label class="form-check-label" for="trangThaiEdit1">Công bố</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="trangThaiEdit" value="0" id="trangThaiEdit0">
+                                <label class="form-check-label" for="trangThaiEdit0">Không công bố</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" class="form-control" id="idEdit" />
+                <input type="hidden" class="form-control" id="anhDaiDienPreEdit" />
+                <input type="hidden" class="form-control" id="anhDaiDienDeleteEdit" value="0" />
+
+                <input type="hidden" class="form-control" id="thumbnailPreEdit" />
+                <input type="hidden" class="form-control" id="thumbnailDeleteEdit" value="0" />
+            </form>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="mediaContent" role="tabpanel" aria-labelledby="media">
+        <div class="form-container">
+            @if (Model.PermittedCreate > 0)
+            {
+                <div class="form-group group-button-action text-right">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalAdd">Thêm mới</button>
+                </div>
+            }
+            <div class="row">
+                <div class="table-wrapper">
+                    <table class="table row-border compact" id="dataGrid">
+                        <thead>
+                            <tr>
+                                <th>Stt</th>
+                                <th>Tên file</th>
+                                <th>Tiêu đề</th>
+                                <th>Mô tả</th>
+                                <th>Loại</th>
+                                <th>Thứ tự hiển thị</th>
+                                @if (Model.PermittedEdit > 0 || Model.PermittedDelete > 0)
+                                {
+                                    <th>Chức năng</th>
+                                }
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="tinLienQuanContent" role="tabpanel" aria-labelledby="tinLienQuan">
+        <div class="form-container">
+            @if (Model.PermittedCreate > 0)
+            {
+                <div class="form-group group-button-action text-right">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalTinLQAdd">Thêm mới</button>
+                </div>
+            }
+            <div class="row">
+                <div class="table-wrapper">
+                    <table class="table row-border compact" id="dataGridTinLQ">
+                        <thead>
+                            <tr>
+                                <th>Stt</th>
+                                <th>Tiêu đề</th>
+                                <th>Chuyên mục</th>
+                                <th>Tác giả</th>
+                                <th>Trạng thái</th>
+                                @if (Model.PermittedEdit > 0 || Model.PermittedDelete > 0)
+                                {
+                                    <th>Chức năng</th>
+                                }
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="lienHeContent" role="tabpanel" aria-labelledby="lienHe">
+        <div class="form-container">
+            <div class="row">
+                <div class="form-group col-md-3">
+                    <label for="dienThoaiEdit" class="form-label">Điện thoại</label>
+                    <input type="text" class="form-control field-input check-sdt" id="dienThoaiEdit" placeholder="Nhập số điện thoại" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="emailEdit" class="form-label">Email</label>
+                    <input type="email" class="form-control field-input" id="emailEdit" placeholder="Nhập email" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="gioMoCuaEdit" class="form-label">Giờ mở cửa</label>
+                    <input type="text" class="form-control field-input hh-mm-ss" id="gioMoCuaEdit" placeholder="Giờ mở cửa" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="gioDongCuaEdit" class="form-label">Giờ đóng cửa</label>
+                    <input type="text" class="form-control field-input hh-mm-ss" id="gioDongCuaEdit" placeholder="Giờ đống cửa" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="diaChiEdit" class="form-label">Địa chỉ</label>
+                    <input type="text" class="form-control field-input" id="diaChiEdit" placeholder="Nhập địa chỉ" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="websiteEdit" class="form-label">Website</label>
+                    <input type="text" class="form-control field-input check-website" id="websiteEdit" placeholder="Nhập địa chỉ website" autocomplete="off" />
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="thuTuAdd" class="form-label">Tọa độ X</label>
+                    <input type="text" class="form-control field-input check-vido" id="toaDoX" value="0" min="-180" max="180" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="thuTuAdd" class="form-label">Tọa độ Y</label>
+                    <input type="text" class="form-control field-input check-kinhdo" id="toaDoY" value="0" min="-180" max="180" autocomplete="off" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="group-button-action text-right col-md-12 mt-1 p-0">
+        <a type="button" class="btn grey btn-outline-light" asp-area="AdminTool" asp-controller="BaiViet" asp-action="Index">Hủy bỏ</a>
+        @if (Model.PermittedEdit > 0 || Model.PermittedCreate > 0)
+        {
+            <button type="submit" id="luu" class="btn btn-secondary">Lưu</button>
+        }
+    </div>
+</div>
+
+
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDeleteImg.cshtml")
+
+<!-- Modal add media-->
+<div class="modal right fade" id="modalAdd" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Thêm mới file media</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formAdd">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="tieuDeAdd" class="form-label">Tiều đề<span class="text-red"> *</span></label>
+                        <input type="text" class="form-control field-input" id="tieuDeAdd" placeholder="Nhập tiêu đề" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="moTaAdd" class="form-label">Mô tả</label>
+                        <input type="text" class="form-control field-input" id="moTaAdd" placeholder="Nhập mô tả" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="thuTuAdd" class="form-label">Thứ tự hiển thị</label>
+                        <input type="number" class="form-control field-input" id="thuTuAdd" value="0" , min="0" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="fileMediaAdd" class="form-label">File media</label>
+                        <input type="file" class="form-control field-input" id="fileMediaAdd" placeholder="Chọn file media" autocomplete="off" />
+                       @*  <input type="file"
+                               class="filepond"
+                               name="filepond"
+                               multiple
+                               data-allow-reorder="true"
+                               data-max-file-size="3MB"
+                               data-max-files="3">
+                    </div> *@
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                        <button type="button" class="btn btn-secondary" id="luuMedia">Lưu</button>
+                </div>
+            </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- Modal edit media-->
+<div class="modal right fade" id="modalEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Chỉnh sửa file media <span id="tenFileEdit"></span></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <input type="text" id="idFileEdit" hidden />
+                    <div class="form-group">
+                        <label for="tieuDeFileEdit" class="form-label">Tiều đề<span class="text-red"> *</span></label>
+                        <input type="text" class="form-control field-input" id="tieuDeFileEdit" placeholder="Nhập tiêu đề" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="moTaFileEdit" class="form-label">Mô tả</label>
+                        <input type="text" class="form-control field-input" id="moTaFileEdit" placeholder="Nhập mô tả" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="thuTuFileEdit" class="form-label">Thứ tự hiển thị</label>
+                        <input type="number" class="form-control field-input" id="thuTuFileEdit" value="0" , min="0" autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="fileMediaEdit" class="form-label">File media</label>
+                        <input type="file" class="form-control field-input" id="fileMediaEdit" placeholder="Chọn file media" autocomplete="off" />
+                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                        <button type="button" class="btn btn-secondary" id="editMedia">Lưu</button>
+                    </div>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- Modal add tinlienquan-->
+<div class="modal right fade" id="modalTinLQAdd" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Thêm bài viết liên quan</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formAdd">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="selectBaiVietAdd" class="form-label">Bài viết<span class="text-red"> *</span></label>
+                        <select class="form-control" id="selectBaiVietAdd"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="chuyenMucTLQAdd" class="form-label">Chuyên mục</label>
+                        <input type="text" class="form-control field-input" id="chuyenMucTLQAdd" readonly autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="tacGiaTLQAdd" class="form-label">Tác giả</label>
+                        <input type="text" class="form-control field-input" id="tacGiaTLQAdd" readonly autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="trangThaiTLQAdd" class="form-label">Trang thái</label>
+                        <input type="text" class="form-control field-input" id="trangThaiTLQAdd" readonly autocomplete="off" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                        <button type="button" class="btn btn-secondary" id="luuTLQ">Lưu</button>
+                    </div>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- Modal edit tinlienquan-->
+<div class="modal right fade" id="modalTinLQEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Chỉnh sửa bài viết liên quan<span id=""></span></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <input type="text" id="idTLQEdit" hidden />
+                    <div class="form-group">
+                        <label for="selectBaiVietEdit" class="form-label">Bài viết<span class="text-red"> *</span></label>
+                        <select type="text" class="form-control" id="selectBaiVietEdit"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="chuyenMucTLQEdit" class="form-label">Chuyên mục</label>
+                        <input type="text" class="form-control field-input" id="chuyenMucTLQEdit" readonly autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="tacGiaTLQEdit" class="form-label">Tác giả</label>
+                        <input type="text" class="form-control field-input" id="tacGiaTLQEdit" readonly autocomplete="off" />
+                    </div>
+                    <div class="form-group">
+                        <label for="trangThaiTLQEdit" class="form-label">Trang thái</label>
+                        <input type="text" class="form-control field-input" id="trangThaiTLQEdit" readonly autocomplete="off" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                        <button type="button" class="btn btn-secondary" id="editTLQ">Lưu</button>
+                    </div>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDelete.cshtml")
+@section Scripts {
+    <script>
+        const editId = '@ViewBag.Id';
+        const indexUrl = '@Url.Action("Index", "BaiViet", new { Area = "AdminTool" })';
+    </script>
+
+
+  
+    <script src="~/PageScripts/admin/BaiVietEdit.js"></script>
+}

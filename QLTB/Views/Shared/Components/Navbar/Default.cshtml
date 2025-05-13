@@ -1,0 +1,127 @@
+﻿@model List<Domain.TreeChuyenMuc>
+
+@if (Model != null)
+{
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <img class="brand-logo" alt="Trung tâm Công nghệ thông tin tỉnh Thừa Thiên Huế" src="~/assets/images/logo/logo-large.png">
+                <div class="group-brand-text">
+                    <h2 class="brand-text">Hệ thống dữ liệu mở</h2>
+                    <h3 class="brand-text-second">Tỉnh Thừa Thiên Huế</h3>
+                </div>
+            </a>
+            <div class="site-navigation position-relative text-right d-none d-xl-block">
+                <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                    @foreach (var item in Model)
+                    {
+                        item.DiaChiLienKet = item.DiaChiLienKet == "~/Views/Home/Index.cshtml" ? "/" : item.DiaChiLienKet;
+                        if (item.Cap == 0)
+                        {
+                            var child = Model.Where(e => e.Cap == item.Cap + 1 && e.ChuyenMucCapChaID == item.ID).ToList();
+                            if (child.Count == 0)
+                            {
+                                if (item.LoaiLienKet == 2)
+                                {
+                                    var blank = item.MoLienKetOCuaSoMoi == true ? "_blank" : "";
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="@blank" href="@(item.DiaChiLienKet != null ? @item.DiaChiLienKet : "#")">@item.TenChuyenMuc</a>
+                                    </li>
+                                }
+                                else if (item.LoaiLienKet == 3 && item.DiaChiLienKet == "/")
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="@(item.DiaChiLienKet != null ? @item.DiaChiLienKet : "#")">@item.TenChuyenMuc</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" asp-area="" asp-controller="BaiViet" asp-action="DanhSachBaiViet" asp-route-url="@item.URLChuyenMuc" asp-route-redirect="0">@item.TenChuyenMuc</a>
+                                    </li>
+                                }
+
+                            }
+                            else{
+                                <li class="nav-item has-children">
+                                    @if (item.LoaiLienKet == 2)
+                                    {
+                                        var blank = item.MoLienKetOCuaSoMoi == true ? "_blank" : "";
+                                        <a class="nav-link" href="@(item.DiaChiLienKet != null ? @item.DiaChiLienKet : "#")" target="@blank">@item.TenChuyenMuc</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="nav-link" asp-area="" asp-controller="BaiViet" asp-action="DanhSachBaiViet" asp-route-url="@item.URLChuyenMuc" asp-route-redirect="0">@item.TenChuyenMuc</a>
+                                    }
+                                    
+                                    <ul class="dropdown arrow-top">
+                                        @foreach (var c in child)
+                                        {
+                                            var childcap1 = Model.Where(e => e.Cap == c.Cap + 1 && e.ChuyenMucCapChaID == c.ID).ToList();
+                                            var url = c.URLChuyenMuc;
+                                            if (childcap1.Count == 0)
+                                            {
+                                                <li class="nav-item">
+                                                    <a asp-area="" asp-controller="BaiViet" asp-action="DanhSachBaiViet" asp-route-url="@url" asp-route-redirect="1">@c.TenChuyenMuc</a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                               
+                                                <li class="nav-item has-children">
+                                                    <a asp-area="" asp-controller="BaiViet" asp-action="DanhSachBaiViet" asp-route-url="@url" asp-route-redirect="1">@c.TenChuyenMuc</a>
+                                                    <ul class="dropdown arrow-top">
+                                                        @foreach (var c2 in childcap1)
+                                                        {
+                                                            <li class="nav-item has-children">
+                                                                <a asp-area="" asp-controller="BaiViet" asp-action="DanhSachBaiViet" asp-route-url="@c2.URLChuyenMuc" asp-route-redirect="1">@c2.TenChuyenMuc</a>
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    }
+                    @if (User.Identity.IsAuthenticated == true)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="AdminTool" asp-controller="Home" asp-action="Index">Quản trị</a>
+                            @* <a class="nav-link" asp-area="AdminTool" asp-controller="ChuyenMuc" asp-action="Index">Quản trị</a> *@
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item nav-item-login">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Login">Đăng nhập</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="site-mobile-menu">
+                <div class="site-mobile-menu-header">
+                    <div class="site-mobile-menu-close js-menu-toggle ">
+                        <i class="icon-fluent icon_fluent_dismiss_filled"></i>
+                    </div>
+                </div>
+                <div class="site-mobile-menu-body"></div>
+            </div>
+            <div class="d-inline-block d-xl-none ml-md-0 ml-auto py-1">
+                <span class="site-menu-toggle js-menu-toggle text-white active">
+                    <i class="icon-fluent icon_fluent_line_horizontal_3_filled"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+}
+else
+{
+    <div>Không có dữ liệu</div>
+}
+
+
+
+

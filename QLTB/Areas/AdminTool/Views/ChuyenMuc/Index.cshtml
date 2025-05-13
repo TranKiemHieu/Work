@@ -1,0 +1,63 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+<style>
+   
+    #tree-list-container {
+        min-height: 700px;
+    }
+
+    #treeView {
+        max-height: 700px;
+    }
+
+</style>
+<div class="content-header row">
+    <div class="content-header-left col-md-12">
+        <h3 class="content-header-title mb-0">Danh sách chuyên mục</h3>
+    </div>
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="form-group col-xl-3 col-lg-5 col-md-6">
+                <div class="search-group">
+                    <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                    <i class="icon-fluent icon_fluent_search_filled icon-search" id="tim-kiem"></i>
+                </div>
+            </div>
+            @if (Model.PermittedCreate == 1)
+            {
+                <div class="form-group group-button-action text-right col-xl-9 col-lg-7 col-md-6">
+                    <button type="button" class="btn btn-success" id="addBtn">Thêm mới</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper">
+            <div id="tree-list-container" class="container-fluid">
+                <div id="treeView"></div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDelete.cshtml")
+
+@section Scripts {
+    <script>
+        const addUrl = '@Url.Action("Edit", "ChuyenMuc", new { Area = "AdminTool" })';
+        const editUrl = '@Url.Action("Edit", "ChuyenMuc", new { Area = "AdminTool" })';
+
+        const canEdit = @Model.PermittedEdit;
+        const canDelete = @Model.PermittedDelete;
+      
+    </script>
+   
+    <script src="~/PageScripts/admin/ChuyenMuc.js"></script>
+  
+}

@@ -1,0 +1,168 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+<style>
+
+    #tree-list-container {
+        min-height: 700px;
+    }
+
+    #treeView {
+        max-height: 700px;
+    }
+
+</style>
+<div class="content-header row">
+    <div class="content-header-left col-md-12">
+        <h3 class="content-header-title mb-0">Danh sách tiêu chí</h3>
+    </div>
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="form-group col-xl-3 col-lg-5 col-md-6">
+                <div class="search-group">
+                    <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                    <i class="icon-fluent icon_fluent_search_filled icon-search" id="tim-kiem"></i>
+                </div>
+            </div>
+            @if (Model.PermittedCreate == 1)
+            {
+                <div class="form-group group-button-action text-right col-xl-9 col-lg-7 col-md-6">
+                    <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#modalAdd">Thêm mới</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper">
+            <div id="tree-list-container" class="container-fluid">
+                <div id="treeView"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal add-->
+<div class="modal right fade" id="modalAdd" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Thêm mới tiêu chí</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formAdd">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="tenTCAdd" class="form-label">Tên tiêu chí <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="tenTCAdd" maxlength="128">
+                        <div id="checkNameAdd" class="alert-feedback text-danger fade hide">Vui lòng nhập tên tiêu chí!</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="moTaAdd" class="form-label">Mô tả</label>
+                        <textarea class="form-control" id="moTaAdd" rows="3" maxlength="500"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="loaiAdd" class="form-label">Loại</label>
+                        <select class="form-control" id="loaiAdd">
+                            <option value="0">string</option>
+                            <option value="1">int</option>
+                            <option value="2">bool</option>
+                            <option value="3">decimal</option>
+                            <option value="4">double</option>
+                            <option value="5">DateTime</option>
+                            <option value="6">Date</option>
+                            <option value="7">Time</option>
+                            <option value="8">image</option>
+                            <option value="9">file</option>
+                            <option value="10">select</option>
+                            <option value="11">content</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="group-check group-check-inline">
+                            <div class="form-check icheck-primary form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="useAdd">
+                                <label for="useAdd"></label>
+                                <label class="form-check-label" for="useAdd">Sử dụng</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+<!-- Modal edit-->
+<div class="modal right fade" id="modalEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Cập nhật tiêu chí <span id="tcNameEdit"></span></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <input type="hidden" id="idEdit" value="" />
+                    <div class="form-group">
+                        <label for="tenTCEdit" class="form-label">Tên tiêu chí <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="tenTCEdit" maxlength="128">
+                        <div id="checkNameEdit" class="alert-feedback text-danger fade hide">Vui lòng nhập tên tiêu chí!</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="moTaEdit" class="form-label">Mô tả</label>
+                        <textarea class="form-control" id="moTaEdit" rows="3" maxlength="500"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="loaiEdit" class="form-label">Loại</label>
+                        <select class="form-control" id="loaiEdit">
+                            <option value="0">string</option>
+                            <option value="1">int</option>
+                            <option value="2">bool</option>
+                            <option value="3">decimal</option>
+                            <option value="4">double</option>
+                            <option value="5">DateTime</option>
+                            <option value="6">Date</option>
+                            <option value="7">Time</option>
+                            <option value="8">image</option>
+                            <option value="9">file</option>
+                            <option value="10">select</option>
+                            <option value="11">content</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="group-check group-check-inline">
+                            <div class="form-check icheck-primary form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="useEdit">
+                                <label for="useEdit"></label>
+                                <label class="form-check-label" for="useEdit">Sử dụng</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDelete.cshtml")
+
+@section Scripts {
+    <script>
+        const canEdit = @Model.PermittedEdit;
+        const canDelete = @Model.PermittedDelete;
+    </script>
+   
+    <script src="~/PageScripts/admin/ThietLap.js"></script>
+
+}

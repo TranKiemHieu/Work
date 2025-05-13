@@ -1,0 +1,196 @@
+﻿<div class="content-header row">
+    <div class="content-header-left col-md-12">
+        <h3 class="content-header-title mb-0">Trang chủ</h3>
+    </div>
+</div>
+<div class="content-body dashboard-container">
+    <!-- Stats -->
+    <div class="row dashboard-row">
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-danger-light">
+                                <i class="icon-fluent icon_fluent_database_regular text-red"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số chuyên mục</h5>
+                            <h5 id="tongSoChuyenMuc" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-danger-light">
+                                <i class="icon-fluent icon_fluent_database_link_regular text-blue"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số chuyên mục sử dụng</h5>
+                            <h5 id="tongSoChuyenMucSuDung" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-warning-light">
+                                <i class="icon-fluent icon_fluent_document_regular text-yellow"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số bài viết</h5>
+                            <h5 id="tongSoBaiViet" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-success-light">
+                                <i class="icon-fluent icon_fluent_preview_link_regular text-green"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số bài viết công bố</h5>
+                            <h5 id="tongSoBaiVietCongBo" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-success-light">
+                                <i class="icon-fluent icon_fluent_eye_regular text-green"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số lượt xem</h5>
+                            <h5 id="tongSoLuotXem" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 dashboard-item">
+            <div class="card shadow-none">
+                <div class="card-content">
+                    <div class="media align-items-stretch">
+                        <div class="dashboard-item__icon">
+                            <div class="dashboard-icon bg-info-light">
+                                <i class="icon-fluent icon_fluent_arrow_download_regular text-blue"></i>
+                            </div>
+                        </div>
+                        <div class="media-body">
+                            <h5 class="dashboard-item__text">Tổng số lượt tải</h5>
+                            <h5 id="tongSoLuotTai" class="dashboard-item__number">-</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Stats -->
+    <!--Chart & Table -->
+    <div class="row match-height">
+        <div class="col-xl-7 col-lg-12">
+            <div class="card shadow-none mb-2">
+                <div class="card-header pb-1">
+                    <h4 class="card-title">Thống kê theo ngày</h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body pt-0 pb-0">
+                        <figure class="highcharts-figure mb-0">
+                            <div id="containerStatistics"></div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-5 col-lg-12">
+            <div class="card card-table shadow-none mb-2">
+                <div class="card-header pb-1">
+                    <h4 class="card-title">Thống kê theo chuyên mục</h4>
+                </div>
+                <div class="card-content">
+                    <div class="card-body pt-0">
+                        <div class="row">
+                            <div class="table-wrapper">
+                                <table class="table row-border compact" id="dataGridStatistic">
+                                    <thead>
+                                        <tr>
+                                            @* <th></th> *@
+                                            <th>Tên chuyên mục</th>
+                                            <th>Tổng số bài viết</th>
+                                            <th>Sử dụng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Chart & Table -->
+    <!--Recent Dataset Update -->
+    <div class="card card-table shadow-none mb-0">
+        <div class="card-header pb-1">
+            <h4 class="card-title">Bài viết gần đây</h4>
+        </div>
+        <div class="card-content">
+            <div class="card-body pt-0">
+                <div class="row">
+                    <div class="table-wrapper">
+                        <table class="table row-border compact" id="dataGridDatasetUpdateRecent">
+                            <thead>
+                                <tr>
+                                    <th>Stt</th>
+                                    <th>Tiêu đề</th>
+                                    <th>Chuyên mục</th>
+                                    <th>Ngày tạo</th>
+                                    <th>Ngày công bố</th>
+                                    <th>Ngày cập nhật</th>
+                                    <th>Người cập nhật</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+                <input type="hidden" id="uniquecode" value="@ViewBag.orgUniqueCode" />
+            </div>
+        </div>
+    </div>
+    <!--/ Recent Dataset Update -->
+</div>
+
+@section Scripts {
+    <script src="~/assets/vendors/highcharts/highcharts.js"></script>
+    <script src="~/assets/vendors/highcharts/exporting.js"></script>
+    <script src="~/assets/vendors/highcharts/export-data.js"></script>
+    <script src="~/assets/vendors/highcharts/accessibility.js"></script>
+    <script src="~/PageScripts/admin/Dashboard2.js"></script>
+}

@@ -1,0 +1,17 @@
+﻿USE [TinTuc]
+GO
+/****** Object:  StoredProcedure [dbo].[spu_TB_BaiViet_GetAll]    Script Date: 5/13/2025 8:43:01 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+ALTER PROCEDURE [dbo].[spu_TB_BaiViet_GetAll]
+AS
+BEGIN
+    SELECT * FROM TB_BaiViet
+END
+
+
+

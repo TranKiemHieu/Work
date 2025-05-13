@@ -1,0 +1,48 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container container-main-content">
+        <div class="row">
+            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner diagonal part-1"></div>
+                <div class="spinner horizontal"></div>
+                <div class="spinner diagonal part-2"></div>
+            </label>
+            <div class="wrapper-page wrapper-page-home col-lg-8" id="wrapper-page-home">
+                <!--Danh sách sản phẩm -->
+            </div>
+            <div id="GridLeft" class="wrapper-page wrapper-page-home col-lg-4 ">
+                @* <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a> *@
+                <!--Thư mời-->
+                <div id="openLetterContainer" class="container"></div>  
+                <!--Ý kiến khách hàng-->
+                <div id="listFeedBackContainer" class="container"></div> 
+                <!--Góp ý-->
+                <div id="feedBackContainer" class="container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        const urlChuyenMuc = '@ViewBag.Url';
+        const totalRow = '@ViewBag.TotalRow';
+        const pageSize = '@ViewBag.PageSize';
+    </script>
+    <script src="~/PageScripts/app/DichVu.js"></script>
+
+}

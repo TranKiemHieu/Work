@@ -1,0 +1,48 @@
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\bin\Debug\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\bin\Debug\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\Domain.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\ref\Domain.dll

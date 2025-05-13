@@ -1,0 +1,170 @@
+﻿@using System.Reflection;
+@using System.ComponentModel;
+@using Domain.Enums;
+
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+
+@section Css {
+    <style>
+        div.custom-treeview-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+}
+
+<div class="content-header row">
+    <div class="content-header-left col-md-9">
+        <h3 class="content-header-title mb-0">Thống kê bài viết</h3>
+    </div>
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="col-md-3 form-group">
+                <label class="form-label">Từ khóa</label>
+                <div class="search-group search-icon-left">
+                    <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                    <i id="btn-search" class="icon-fluent icon_fluent_search_filled icon-search"></i>
+                </div>
+            </div>
+            <div class="col-md-3 form-group">
+                <label for="category-search" class="form-label">Chuyên mục</label>
+                <div id="category-search" class="form-control"></div>
+            </div>
+            <div class="col-md-3 form-group">
+                <label class="form-label">Ngôn ngữ</label>
+                <select class="form-control" id="language-search">
+                    <option value="">Tất cả</option>
+                    @if (ViewBag.ListNgonNgu != null && ViewBag.ListNgonNgu.Count > 0)
+                    {
+                        foreach (var item in ViewBag.ListNgonNgu)
+                        {
+                            var index = ViewBag.ListNgonNgu.IndexOf(item) + 1;
+                            <option value="@index">@item</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-md-3 form-group">
+                <div class="group-check group-check-inline pt-2">
+                    <div class="form-check icheck-primary form-check-inline">
+                        <label class="form-check-label" for="other-category-search">Lấy tin thuộc chuyên mục khác</label>
+                        <label for="other-category-search"></label>
+                        <input class="form-check-input" type="checkbox" value="" id="other-category-search">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3 form-group">
+                <label class="form-label">Thời gian tạo từ ngày</label>
+                <div class="input-group date dd-mm-yyyy">
+                    <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="tu-ngay-search" />
+                    <div class="input-group-addon input-group-append">
+                        <div class="input-group-text">
+                            <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 form-group">
+                <label class="form-label">Đến ngày</label>
+                <div class="input-group date dd-mm-yyyy">
+                    <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="den-ngay-search" />
+                    <div class="input-group-addon input-group-append">
+                        <div class="input-group-text">
+                            <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 form-group">
+                <label class="form-label">Người cập nhật</label>
+                <select class="form-control" id="user-search">
+                    <option value="-1">Tất cả</option>
+                    @if(ViewBag.ListNguoiCapNhat != null && ViewBag.ListNguoiCapNhat.Count > 0)
+                    {
+                        foreach (var user in ViewBag.ListNguoiCapNhat as List<Domain.AppUser>)
+                        {
+                            <option value="@user.Id">@user.DisplayName</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-md-3 form-group">
+                <label class="form-label">Trạng thái</label>
+                <select class="form-control select-ns" id="status-search">
+                    <option value="-1">Tất cả</option>
+                    @{
+                        var listTrangThai = typeof(TrangThaiBaiViet).GetFields(BindingFlags.Public | BindingFlags.Static);
+                        foreach (var field in listTrangThai)
+                        {
+                            var value = (int)field.GetValue(null);
+                            var attribute = (DescriptionAttribute)Attribute.GetCustomAttribute(field, typeof(DescriptionAttribute));
+                            string description = attribute != null ? attribute.Description : "";
+                            <option value="@value">@description</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 form-group group-button-action d-flex flex-end justify-content-flex-end">
+                <button type="button" class="btn btn-secondary" id="btn-filter">Lọc</button>
+                <button type="button" class="btn btn-outline-light" id="tat-ca">Tất cả</button>
+                <button type="button" class="btn btn-outline-success" id="xuatExcel">Xuất excel</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="header-detail">
+        <div class="form-row">
+            <div class="col-md-12 form-group text-right">
+                <label class="mb-0">Tổng số bài viết: <span class="total-table" id="tongSoBaiViet">0</span></label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper">
+            <table class="table row-border compact" id="dataGrid">
+                <thead>
+                    <tr>
+                        <th>Stt</th>
+                        <th>Tiêu đề</th>
+                        <th>Chuyên mục</th>
+                        <th>File media</th>
+                        <th>Ngày tạo</th>
+                        <th>Ngày công bố</th>
+                        <th>Ngày cập nhật</th>
+                        <th>Người cập nhật</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- Modal detail-->
+<div class="modal right fade" id="modalDetail" role="dialog" aria-hidden="true">
+    <div class="modal-dialog w-100" role="document" style="max-width: 100%">
+        <div class="modal-content">
+            <div class="modal-header header-no-title">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body news_detail" id="tinBaiDetail">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const detailUrl = '@Url.Action("Detail", "Dataset", new { Area = "AdminTool" })';
+    </script>
+    <script src="~/PageScripts/admin/ThongKeBaiViet.js"></script>
+}

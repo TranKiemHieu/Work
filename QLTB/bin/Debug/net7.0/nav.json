@@ -1,0 +1,95 @@
+{
+  "Navs": {
+    "Items": [
+      {
+        "Id": 1,
+        "Title": "Quản lý tiện ích",
+        "IsAuthorize": false,
+        "Icon": "icon-fluent icon_fluent_apps_regular",
+        "IsLeaf": false,
+        "ListRoles": [],
+        "ListChilds": [
+          {
+            "Id": 2,
+            "AreaName": "AdminTool",
+            "ControllerName": "ChuyenMuc",
+            "ActionName": "Index",
+            "Title": "Quản lý chuyên mục",
+            "IsAuthorize": false,
+            "IsLeaf": true,
+            "ListRoles": [
+              "Admin",
+              "Editor",
+              "Host",
+              "SystemAdmin"
+            ]
+          },
+          {
+            "Id": 3,
+            "AreaName": "AdminTool",
+            "ControllerName": "BaiViet",
+            "ActionName": "Index",
+            "Title": "Quản lý bài viết",
+            "IsAuthorize": false,
+            "IsLeaf": true,
+            "ListRoles": [
+              "Admin",
+              "Editor",
+              "Host",
+              "SystemAdmin"
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Title": "Người dùng - Phân quyền",
+        "IsAuthorize": false,
+        "Icon": "icon-fluent icon_fluent_people_settings_regular",
+        "IsLeaf": false,
+        "ListRoles": [],
+        "ListChilds": [
+          {
+            "Id": 5,
+            "AreaName": "AdminTool",
+            "ControllerName": "TaiKhoan",
+            "ActionName": "Index",
+            "Title": "Danh sách tài khoản",
+            "IsAuthorize": false,
+            "IsLeaf": true,
+            "ListRoles": [
+              "Admin",
+              "Host",
+              "SystemAdmin"
+            ]
+          },
+          {
+            "Id": 6,
+            "AreaName": "AdminTool",
+            "ControllerName": "Menu",
+            "ActionName": "DanhSach",
+            "Title": "Danh sách menu",
+            "IsAuthorize": false,
+            "IsLeaf": true,
+            "ListRoles": [
+              "Host",
+              "SystemAdmin"
+            ]
+          },
+          {
+            "Id": 7,
+            "AreaName": "AdminTool",
+            "ControllerName": "Role",
+            "ActionName": "Index",
+            "Title": "Danh sách vai trò",
+            "IsAuthorize": false,
+            "IsLeaf": true,
+            "ListRoles": [
+              "Host"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+@model Domain.TB_BaiViet;
+
+@if (Model != null)
+{
+    var cauHinh = ViewBag.ListThongSo as List<Domain.TB_ThongSoCauHinh_TrinhDien>;
+    var listBaiViet = Model;
+
+
+    var isShowAvatar = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowAvatar");
+    var isShowDeclarationDay = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowDeclarationDay");
+    var isShowSummary = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowSummary");
+    var isShowTitle = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowTitle");
+    var isShowCategoryName = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowCategoryName");
+    var isShowContent = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowContent");
+    var isShowAuthor = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowAuthor");
+    var isShowCopyRight = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowCopyRight");
+    var isShowContact = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowContact");
+    var isShowNewsResource = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowNewsResource");
+    var isShowKeys = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowKeys");
+
+    <div id="@Model.ID">
+        <section class="section-news" style="display: flex; flex-direction: column;">
+            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+            {
+                <div class="news_title" style="order: @isShowTitle.ThuTuHienThi;">
+                    @Model.TieuDe
+                </div>
+            }
+            @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.NgayCongBo.ToString()))
+            {
+                string ngayCB = string.Format("{0:dd/MM/yyyy}", Model.NgayCongBo);
+                <div class="news_date_public" style="order: @isShowDeclarationDay.ThuTuHienThi; color:black">@ngayCB</div>
+            }
+            @if (isShowAvatar != null && isShowAvatar.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.AnhDaiDien))
+            {
+                <div class="news_img text-center" style="order: @isShowAvatar.ThuTuHienThi;">
+                    <img class="news_thumb" src="@Model.AnhDaiDien" width="100%" />
+                </div>
+            }
+            @* check @Model.TomTat not empty or blank *@
+            @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.TomTat))
+            {
+                <div class="news_summary" style="order: @isShowSummary.ThuTuHienThi;">
+                    @Model.TomTat
+                </div>
+            }
+
+            @* check @Model.NoiDung not empty or blank *@
+            @if (isShowContent != null && isShowContent.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.NoiDung))
+            {
+                <div class="news_content" style="order: @isShowContent.ThuTuHienThi;">
+                    @Html.Raw(@Model.NoiDung)
+                </div>
+            }
+
+            <div class="news_description_wrapper" style="order: 99;">
+                @* check if @Model.TacGia not null or empty *@
+                @if (isShowAuthor != null && isShowAuthor.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.TacGia))
+                {
+                    <div class="news_description news_author">
+                        @Model.TacGia
+                    </div>
+                }
+                @* check if @Model.TacQuyen not null or empty *@
+                @if (isShowCopyRight != null && isShowCopyRight.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.TacQuyen))
+                {
+                    <div class="news_description news_AuthorRights">
+                        @Model.TacQuyen
+                    </div>
+                }
+                @* check if @Model.NguonTin not null or empty *@
+                @if (isShowNewsResource != null && isShowNewsResource.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.NguonTin))
+                {
+                    <div class="news_description news_infoResource">
+                        @Model.NguonTin
+                    </div>
+                }
+                @* check if @Model.TuKhoa not null or empty *@
+                @if (isShowKeys != null && isShowKeys.GiaTriThietLap == "1" && !string.IsNullOrEmpty(Model.TuKhoa))
+                {
+                    <div class="news_description news_keyWord">
+                        @Model.TuKhoa
+                    </div>
+                }
+                @if (isShowContact != null && isShowContact.GiaTriThietLap == "1")
+                {
+                    @* check if @Model.DienThoai not null or empty *@
+                    @if (!string.IsNullOrEmpty(@Model.DienThoai))
+                    {
+                        <div class="news_description news_phone">
+                            @Model.DienThoai
+                        </div>
+                    }
+                    @* check if @Model.DiaChi not null or empty *@
+                    @if (!string.IsNullOrEmpty(@Model.DiaChi))
+                    {
+                        <div class="news_description news_address">
+                            @Model.DiaChi
+                        </div>
+                    }
+                    @* check if @Model.Email not null or empty *@
+                    @if (!string.IsNullOrEmpty(@Model.Email))
+                    {
+                        <div class="news_description news_email">
+                            @Model.Email
+                        </div>
+                    }
+                    @* check if @Model.Website not null or empty *@
+                    @if (!string.IsNullOrEmpty(@Model.Website))
+                    {
+                        <div class="news_description news_website">
+                            @Model.Website
+                        </div>
+                    }
+                    @* check time if @Model.GioMoCua not empty *@
+                    @if (Model.GioMoCua.HasValue && !string.IsNullOrEmpty(Model.GioMoCua.ToString()))
+                    {
+                        <div class="news_description news_openHour">
+                            @Model.GioMoCua
+                        </div>
+                    }
+                    @* check if @Model.GioDongCua not null or empty *@
+                    @if (Model.GioMoCua.HasValue && !string.IsNullOrEmpty(Model.GioDongCua.ToString()))
+                    {
+                        <div class="news_description news_closeHour">
+                            @Model.GioDongCua
+                        </div>
+                    }
+                }
+            </div>
+        </section>
+    </div>
+}
+else
+{
+    <div class="no-data">Không có dữ liệu!</div>
+}

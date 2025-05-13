@@ -1,0 +1,43 @@
+﻿
+
+@model List<Domain.NavMenuModel>
+
+<ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+    @foreach (var navItem in Model)
+    {
+        @if (navItem.IsAuthorize && navItem.IsShow)
+        {
+            <li class="nav-item">
+                @if (navItem.IsLeaf)
+                {
+                    <a asp-area="@navItem.AreaName" asp-controller="@navItem.ControllerName" asp-action="@navItem.ActionName"><i class="@navItem.Icon"></i><span class="">@navItem.Title</span></a>
+                }
+                else
+                {
+                    if (navItem.ActionName != null || navItem.AreaName != null || navItem.ControllerName != null)
+                    {
+                        <a asp-area="@navItem.AreaName" asp-controller="@navItem.ControllerName" asp-action="@navItem.ActionName"><i class="@navItem.Icon"></i><span class="menu-title">@navItem.Title</span></a>
+                    }
+                    else
+                    {
+                        <a><i class="@navItem.Icon"></i><span class="menu-title" title="@navItem.Title">@navItem.Title</span></a>
+                    }
+                    <ul class="menu-content">
+                        @foreach (var subNavItem in navItem.ListChilds)
+                        {
+                            @if (subNavItem.IsAuthorize && subNavItem.IsShow)
+                            {
+                                <li>
+                                    <a asp-area="@subNavItem.AreaName" asp-controller="@subNavItem.ControllerName" asp-action="@subNavItem.ActionName" class="menu-item" title="@subNavItem.Title">@subNavItem.Title</a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    }
+</ul>
+
+
+

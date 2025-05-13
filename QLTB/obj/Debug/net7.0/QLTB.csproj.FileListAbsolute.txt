@@ -1,0 +1,1509 @@
+D:\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\nav.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.exe
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Core.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Identity.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Dapper.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Document.NET5.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Words.NET5.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Humanizer.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\MimeTypeMap.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Common.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Quartz.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ServiceStack.Text.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\SkiaSharp.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.CodeDom.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Memory.Data.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\af\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ar\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\az\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\bg\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\da\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\el\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fa\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\he\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\hr\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\hu\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\hy\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\id\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\is\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ku\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\lv\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\mt\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\nb\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\nl\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ro\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\sk\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\sl\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\sr\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\sv\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\uk\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\vi\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Application.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Application.pdb
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.AssemblyReference.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfoInputs.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfo.cs
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.CoreCompileInputs.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cs
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.json
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.development.json
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.build.QLTB.props
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.QLTB.props
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.QLTB.props
+D:\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.pack.json
+D:\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\bundle\QLTB.styles.css
+D:\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\projectbundle\QLTB.bundle.scp.css
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.CopyComplete
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.dll
+D:\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLTB.dll
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
+D:\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
+D:\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.exe
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Core.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Identity.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Dapper.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Document.NET5.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Words.NET5.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Humanizer.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\MimeTypeMap.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Common.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Quartz.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ServiceStack.Text.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\SkiaSharp.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.CodeDom.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Memory.Data.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\af\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ar\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\az\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\bg\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\da\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\el\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fa\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\he\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\hr\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\hu\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\hy\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\id\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\is\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ku\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\lv\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\mt\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\nb\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\nl\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ro\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\sk\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\sl\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\sr\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\sv\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\uk\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\vi\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Application.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.development.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.build.QLTB.props
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.QLTB.props
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.QLTB.props
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.pack.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\bundle\QLTB.styles.css
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\projectbundle\QLTB.bundle.scp.css
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLTB.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.Interfaces.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.Up2Date
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.endpoints.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\appsettings.Development.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\appsettings.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.exe
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.deps.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\QLTB.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\AutoMapper.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Azure.Core.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Azure.Identity.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Dapper.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Xceed.Document.NET5.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Xceed.Words.NET5.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\EPPlus.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\EPPlus.Interfaces.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\FluentValidation.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Humanizer.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\MediatR.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\MimeTypeMap.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Build.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Common.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Quartz.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ServiceStack.Text.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\SkiaSharp.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.CodeDom.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Memory.Data.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\X.PagedList.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\af\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ar\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\az\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\bg\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\da\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\el\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fa\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\he\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\hr\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\hu\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\hy\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\id\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\is\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ku\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\lv\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\mt\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\nb\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\nl\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ro\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\sk\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\sl\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\sr\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\sv\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\uk\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\vi\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Application.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Application.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.csproj.AssemblyReference.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfoInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.csproj.CoreCompileInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets.build.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets.development.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.build.QLTB.props
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.QLTB.props
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.QLTB.props
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\staticwebassets.pack.json
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\scopedcss\bundle\QLTB.styles.css
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\scopedcss\projectbundle\QLTB.bundle.scp.css
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.csproj.Up2Date
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\refint\QLTB.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\QLTB\obj\Debug\net7.0\ref\QLTB.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.endpoints.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.exe
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Core.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Identity.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Dapper.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Document.NET5.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Words.NET5.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.Interfaces.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Humanizer.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MimeTypeMap.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Common.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Quartz.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ServiceStack.Text.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\SkiaSharp.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.CodeDom.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.IO.Packaging.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Memory.Data.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\af\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ar\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\az\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\bg\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\da\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\el\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fa\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\he\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hr\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hu\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hy\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\id\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\is\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ku\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\lv\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\mt\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nb\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nl\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ro\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sk\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sl\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sr\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sv\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uk\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\vi\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Application.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Application.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.AssemblyReference.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfoInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.CoreCompileInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\bundle\QLTB.styles.css
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\projectbundle\QLTB.bundle.scp.css
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.development.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.build.QLTB.props
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.QLTB.props
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.QLTB.props
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.pack.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.Up2Date
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLTB.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.exe
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Core.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Azure.Identity.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Dapper.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Document.NET5.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Xceed.Words.NET5.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.Interfaces.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Humanizer.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\MimeTypeMap.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Common.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Quartz.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ServiceStack.Text.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\SkiaSharp.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.CodeDom.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\af\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ar\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\az\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\bg\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\da\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\el\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fa\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\he\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hr\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hu\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\hy\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\id\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\is\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ku\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\lv\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\mt\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nb\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\nl\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ro\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sk\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sl\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sr\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\sv\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uk\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\vi\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Application.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Application.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Domain.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Persistence.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.AssemblyReference.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfoInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.AssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.development.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.build.QLTB.props
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.QLTB.props
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.QLTB.props
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\bundle\QLTB.styles.css
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\scopedcss\projectbundle\QLTB.bundle.scp.css
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.Up2Date
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLTB.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll

@@ -1,0 +1,48 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-8">
+                <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a>
+                <div id="section-main-detail-content" class="mb-2">
+                    <!--main content-->
+                </div>
+                <div class="slideTinBaiKhac">
+                    <div id="section-bottom">
+                        <!--section bottom-->
+                    </div>
+                </div>
+            </div>
+            <div id="GridLeft" class="col-md-4">
+                <div class="col-md-12">
+                    <div id="section-sidebar-1">
+                        <!--section sidebar 1-->
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div id="section-sidebar-2">
+                        <!--section sidebar 2-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const baiVietID = '@ViewBag.BaiVietID';
+    </script>
+    <script src="~/PageScripts/app/ChiTiet_TuyenDung.js" asp-append-version="true"></script>
+
+}

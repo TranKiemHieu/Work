@@ -1,0 +1,48 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="GridLeft" class="col-xl-12 col-lg-12 col-md-12 row">
+                @* <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a> *@
+                <div class="wrapper-page wrapper-page-home col-md-12" id="tin-tieu-diem">
+                    <!--tieu diem -->
+                </div>
+                <p></p>
+                <div class="wrapper-page wrapper-page-home col-md-8 row">
+                    <div class="wrapper-page wrapper-page-home col-md-12" id="tin-hoat-dong">
+                        <!--tin hoat dong -->
+                    </div>
+                    <div class="wrapper-page wrapper-page-home col-md-12" id="tin-chuyen-nganh">
+                        <!--tin chuyen nganh -->
+                    </div>
+                </div>
+                <div class="wrapper-page wrapper-page-home col-md-4 row" id="">
+                    <!-- Hòm thư góp ý,...-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        const urlChuyenMuc = '@ViewBag.Url';
+        const totalRow = '@ViewBag.TotalRow';
+        const pageSize = '@ViewBag.PageSize';
+    </script>
+    <script src="~/PageScripts/app/TinTuc.js" asp-append-version="true"></script>
+
+}

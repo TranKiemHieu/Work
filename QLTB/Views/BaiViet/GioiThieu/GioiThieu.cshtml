@@ -1,0 +1,63 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="GridLeft" class="col-xl-12 col-lg-12 col-md-12">
+                @* <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a> *@
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="section-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">-</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="section-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">-</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="section-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">-</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="section-tab-4" data-toggle="tab" href="#tab-4" role="tab" aria-controls="tab-4" aria-selected="false">-</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="section-tab-1">
+                        <div id="section-content-tab-1" class="section-content-tab">
+                            <!-- tab 1-->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="section-tab-2">
+                        <div id="section-content-tab-2" class="section-content-tab">
+                            <!-- tab 2-->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="section-tab-3">
+                        <div id="section-content-tab-3" class="section-content-tab">
+                            <!-- tab 3-->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-4" role="tabpanel" aria-labelledby="section-tab-4">
+                        <div id="section-content-tab-4" class="section-content-tab">
+                            <!-- tab 4-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+    </script>
+    <script src="~/PageScripts/app/GioiThieu.js" asp-append-version="true"></script>
+    
+}

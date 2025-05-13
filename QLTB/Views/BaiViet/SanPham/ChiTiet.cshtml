@@ -1,0 +1,36 @@
+﻿
+<div class="wrapper-page wrapper-page-content bg-lightblue pb-0">
+    <div class="container">
+        <div class="row">
+            <div class="breadcrumb-wrapper col-md-12">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">@ViewBag.Title</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <a title="Sidebar right" class="btn-sidebar" role="button"><i class="icon-fluent icon_fluent_text_continuous_filled"></i></a>
+                <div id="section-main-detail-content"></div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 slideTinBaiKhac">
+                <div id="section-bottom"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const baiVietID = '@ViewBag.BaiVietID';
+    </script>
+    <script src="~/PageScripts/app/ChiTiet_SanPham.js" asp-append-version="true"></script>
+}

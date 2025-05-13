@@ -1,0 +1,155 @@
+﻿@using Domain;
+@if (ViewBag.ListThongSo != null && ViewBag.ListThongSo.Count > 0)
+{
+    var cauHinh = ViewBag.ListThongSo as List<Domain.TB_ThongSoCauHinh_TrinhDien>;
+
+    var isShowAvatar = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowAvatar");
+    var titleSection = cauHinh.FirstOrDefault(e => e.TenTieuChi == "titleSection");
+    var isTitleSection = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isTitleSection");
+    var typeView = cauHinh.FirstOrDefault(e => e.TenTieuChi == "typeView");
+    int loaiView = typeView != null && typeView.GiaTriThietLap != null ? Int32.Parse(typeView.GiaTriThietLap) : 0;
+
+    if(loaiView == 16)
+    {
+        <section class="section-feedback tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+            <div class="container p-0">
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="sub-pane">
+                            <div class="container-title">
+                                <div class="title title-arrow">
+                                    @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                    {
+                                        <i class="fa fa-angle-right"></i>
+                                        <label>@titleSection.GiaTriThietLap</label>
+                                    }
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group block-container feedback-form">
+                                    <form role="form" id="formFeedback">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="feedbackName" maxlength="250" placeholder="Họ và tên *">
+                                                <div id="checkFbName" class="alert-feedback text-danger fade hide">Vui lòng nhập họ và tên!</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="feedbackPhone" maxlength="100" placeholder="Số điện thoại">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="feedbackEmail" maxlength="100" placeholder="Email *">
+                                                <div id="checkFbEmail" class="alert-feedback text-danger fade hide">Vui lòng nhập email!</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea id="feedbackContent" class="form-control" cols="30" rows="5" placeholder="Nội dung"></textarea>
+                                                <div id="checkFbContent" class="alert-feedback text-danger fade hide">Vui lòng nhập nội dung!</div>
+                                            </div>
+                                        </div>
+                                        <div class="group-button-action text-right">
+                                            <button type="submit" class="btn btn-secondary btn-icon text-uppercase">
+                                                <i class="icon-fluent icon_fluent_send_regular"></i>
+                                                Gửi ý kiến
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    }
+    else if(loaiView == 17)
+    {
+        <section class="section-FAQ tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+            <div class="container p-0">
+                <div class="form-group">
+                    <div class="form-group">
+                        <div class="sub-pane">
+                            <div class="container-title">
+                                <div class="title title-arrow">
+                                    @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                    {
+                                        <i class="fa fa-angle-right"></i>
+                                        <label>@titleSection.GiaTriThietLap</label>
+                                    }
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-group block-container faq-form">
+                                    <form role="form" id="formFAQ" asp-controller="" asp-action="">
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                <label for="faqName" class="form-label">Họ và tên <span class="text-red">*</span></label>
+                                                <input type="text" class="form-control" id="faqName" maxlength="250" placeholder="Ví dụ: Nguyễn Văn A">
+                                                <div id="checkFbName" class="alert-feedback text-danger fade hide">Vui lòng nhập họ và tên!</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="faqPhone" class="form-label">Số điện thoại</label>
+                                                <input type="text" class="form-control" id="faqPhone" maxlength="100" placeholder="Ví dụ: 0000 999 999">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="faqEmail" class="form-label">Email <span class="text-red">*</span></label>
+                                                <input type="text" class="form-control" id="faqEmail" maxlength="100" placeholder="Ví dụ: abc@gmail.com">
+                                                <div id="checkFbEmail" class="alert-feedback text-danger fade hide">Vui lòng nhập email!</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="faqCategory" class="form-label">Chuyên mục hỏi đáp <span class="text-red">*</span></label>
+                                                <select class="form-control" id="faqCategory">
+                                                    <option value="">Chọn</option>
+                                                </select>
+                                                <div id="checkFbCategory" class="alert-feedback text-danger fade hide">Vui lòng chọn chuyên mục!</div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="faqContent" class="form-label">Nội dung <span class="text-red">*</span></label>
+                                                <textarea id="faqContent" class="form-control" cols="30" rows="5" placeholder="Nhập ý kiến phản hồi"></textarea>
+                                                <div id="checkFbContent" class="alert-feedback text-danger fade hide">Vui lòng nhập nội dung!</div>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="anhDinhKemImgEdit" class="form-label">Ảnh đính kèm</label>
+                                                <div class="immagePreview" id="anhDinhKemImgEdit">
+                                                    <img src="/assets/images/icons/imageUpload.png" class="cursor-pointer" />
+                                                    <i class="icon-fluent icon_fluent_dismiss_circle_filled delete-command-btn d-none form-input-file-img-delete" id="anhDinhKemImgDelete" data-parent="anhDinhKem"></i>
+                                                </div>
+                                                <div class="immagePreview" id="anhDinhKemImgEditPreview"></div>
+                                                <input type="file" id="anhDinhKem" class="form-control d-none" accept="image/*">
+                                            </div>
+                                        </div>
+                                        <div class="group-button-action text-right">
+                                            <button type="submit" class="btn btn-secondary btn-icon text-uppercase">
+                                                <i class="icon-fluent icon_fluent_send_regular"></i>
+                                                Gửi ý kiến
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(document).on('click', `#anhDinhKemImgEdit > img`, function (e) {
+                    $(`#anhDinhKem`).click();
+                });
+
+                $(document).on('change', `#anhDinhKem`, function () {
+                    previewImgUpload(this, `anhDinhKemImgEditPreview`, `anhDinhKemImgEdit`);
+                });
+
+                $(document).on('click', `#anhDinhKemImgDelete`, function () {
+                    $(`#anhDinhKemImgEdit img`).attr("src", "/assets/images/icons/imageUpload.png");
+                    $(`#anhDinhKemImgEdit img`).addClass("cursor-pointer");
+                    if (!($(`#anhDinhKemImgDelete`).hasClass('d-none'))) {
+                        $(`#anhDinhKemImgDelete`).addClass('d-none')
+                    };
+                    $(`#anhDinhKemDeleteEdit`).val('1');
+                });
+            });
+        </script>
+    }
+}

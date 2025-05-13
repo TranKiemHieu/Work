@@ -1,0 +1,15 @@
+USE [TinTuc]
+GO
+/****** Object:  StoredProcedure [dbo].[spu_TB_BaiViet_GetByUrl]    Script Date: 5/13/2025 8:44:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[spu_TB_BaiViet_GetByUrl]
+	@urlBaiViet nvarchar(200)
+AS
+BEGIN
+    SELECT * FROM TB_BaiViet where URLBaiViet = @urlBaiViet
+END
+
+

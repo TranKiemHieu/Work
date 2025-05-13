@@ -1,0 +1,213 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+
+    <style>
+        div.custom-treeview-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+}
+
+<div class="content-header row">
+    <div class="content-header-left col-md-9">
+        <h3 class="content-header-title mb-0">@ViewBag.PageTitle</h3>
+    </div>
+    <div class="content-header-right text-md-right col-md-3">
+        <a type="button" class="btn btn-outline-light" asp-area="AdminTool" asp-controller="ChuyenMuc" asp-action="Index">Quay lại</a>
+    </div>
+</div>
+
+
+<div class="tab-pane fade show active" id="noiDungContent" role="tabpanel" aria-labelledby="noiDung">
+    <div class="form-container">
+        <form role="form" id="formEdit">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="tenChuyenMucEdit" class="form-label">Tên chuyên mục <span class="text-red">*</span></label>
+                    <input type="text" class="form-control" id="tenChuyenMucEdit" maxlength="100">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="capChaEdit" class="form-label">Chuyên mục cấp cha</label>
+                    @*  <select class="form-control" id="capChaEdit">
+                    </select> *@
+                    <div id="dropdownBox"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="moTaEdit" class="form-label">Mô tả</label>
+                <textarea class="form-control" id="moTaEdit" rows="5" maxlength="1000"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="col-md-3">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="anhBieuTuongEdit" class="form-label">Ảnh biểu tượng</label>
+                            <div class="immagePreview" id="anhBieuTuongImgEdit">
+                                <img src="/assets/images/icons/imageUpload.png" class="cursor-pointer" />
+                                @if (!string.IsNullOrWhiteSpace(ViewBag.Id) && (Model.PermittedEdit > 0 || Model.PermittedCreate > 0))
+                                {
+                                    <i class="icon-fluent icon_fluent_dismiss_circle_filled delete-command-btn d-none" id="anhBieuTuongImgDelete"></i>
+                                }
+                            </div>
+                            <div class="immagePreview" id="anhBieuTuongImgEditPreview">
+                            </div>
+                            <input type="file" class="form-control d-none" id="anhBieuTuongEdit" accept="image/*">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="anhDaiDienEdit" class="form-label">Ảnh đại diện</label>
+                            <div class="immagePreview" id="anhDaiDienImgEdit">
+                                <img src="/assets/images/icons/imageUpload.png" class="cursor-pointer" />
+                                @if (!string.IsNullOrWhiteSpace(ViewBag.Id) && (Model.PermittedEdit > 0 || Model.PermittedCreate > 0))
+                                {
+                                    <i class="icon-fluent icon_fluent_dismiss_circle_filled delete-command-btn d-none" id="anhDaiDienImgDelete"></i>
+                                }
+                            </div>
+                            <div class="immagePreview" id="anhDaiDienImgEditPreview">
+                            </div>
+                            <input type="file" class="form-control d-none" id="anhDaiDienEdit" accept="image/*">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-md-9">
+                    <label for="moTaDaiDienEdit" class="form-label">Mô tả ảnh đại diện</label>
+                    <textarea class="form-control" id="moTaDaiDienEdit" rows="5" maxlength="100"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="gioiThieuEdit" class="form-label">Nội dung giới thiệu</label>
+                <textarea class="form-control" id="gioiThieuEdit" rows="3"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="thuTuEdit" class="form-label">Thứ tự hiển thị</label>
+                    <input type="number" class="form-control" id="thuTuEdit" value="0">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="maChuyenMucEdit" class="form-label">Mã chuyên mục</label>
+                    <input type="text" class="form-control" id="maChuyenMucEdit" maxlength="50" autocomplete="off">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="ngonNguEdit" class="form-label">Ngôn ngữ</label>
+                    <select class="form-control" id="ngonNguEdit">
+                        <option value="VietName">Tiếng Việt (Việt Nam)</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label class="form-label">Trạng thái</label>
+                    <div class="group-check group-check-inline">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="trangThaiEdit" value="1" id="trangThaiEdit1" checked>
+                            <label class="form-check-label" for="trangThaiEdit1">Sử dụng</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="trangThaiEdit" value="0" id="trangThaiEdit0">
+                            <label class="form-check-label" for="trangThaiEdit0">Không sử dụng</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label class="form-label">Loại liên kết</label>
+                    <div class="group-check group-check-inline">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="loaiLienKet" value="1" id="lk1" checked>
+                            <label class="form-check-label" for="lk1">Không</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="loaiLienKet" value="2" id="lk2">
+                            <label class="form-check-label" for="lk2">URL (Liên kết đến một trang bên ngoài)</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="loaiLienKet" value="3" id="lk3">
+                            <label class="form-check-label" for="lk3">Trang (Một trang của Website)</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="text" class="form-control d-none" id="diaChiLienKetEdit" placeholder="Nhập đường dẫn liên kết" />
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <select class="form-control" id="trangLienKetEdit">
+                            </select>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="moLienKetOCuaSoMoi" name="moLienKetOCuaSoMoi">
+                            <label class="form-check-label" for="moLienKetOCuaSoMoi">Mở liên kết ở của sổ mới</label>
+                        </div>
+                        </>
+                    </div>
+                </div>
+                <div class="form-group col-md-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="isMenuEdit" name="isMenuEdit" checked>
+                        <label class="form-check-label" for="isMenuEdit">Hiển thị ở menu</label>
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" class="form-control" id="idEdit">
+            <input type="hidden" class="form-control" id="anhBieuTuongPreEdit">
+            <input type="hidden" class="form-control" id="anhDaiDienPreEdit">
+            <input type="hidden" class="form-control" id="anhBieuTuongDeleteEdit" value="0" />
+            <input type="hidden" class="form-control" id="anhDaiDienDeleteEdit" value="0" />
+            <div class="group-button-action text-right">
+                <a type="button" class="btn btn-outline-light" asp-area="AdminTool" asp-controller="ChuyenMuc" asp-action="Index">Hủy bỏ</a>
+                @if (Model.PermittedEdit > 0 || Model.PermittedCreate > 0)
+                {
+                    <button type="submit" class="btn btn-secondary">Lưu</button>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal edit-->
+<div class="modal right fade" id="modalEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Cập nhật phân quyền</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="select_User1Edit" class="form-label">Quyền cập nhật thông tin và hiệu chỉnh các bản tin do mình cập nhật	</label>
+                        <select id="select_User1Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select_User2Edit" class="form-label">Quyền hiệu chỉnh thông tin</label>
+                        <select id="select_User2Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select_User3Edit" class="form-label">Quyền duyệt thông tin</label>
+                        <select id="select_User3Edit" class="form-control" data-placeholder="Chọn người dùng phân quyền" multiple>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="button" id="btn-edit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDeleteImg.cshtml")
+
+@section Scripts {
+    <script>
+        const editId = '@ViewBag.Id';
+        const indexUrl = '@Url.Action("Index", "ChuyenMuc", new { Area = "AdminTool" })';
+        const permitedEdit = @Model.PermittedEdit;
+        const permitedDelete = @Model.PermittedDelete;
+        
+    </script>
+   
+    <script src="~/PageScripts/admin/ChuyenMucEdit.js" ></script>
+}

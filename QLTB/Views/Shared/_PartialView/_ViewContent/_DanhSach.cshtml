@@ -1,0 +1,1195 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+@model StaticPagedList<Domain.TB_BaiVietTrinhDien>;
+
+@if(ViewBag.ListThongSo != null && ViewBag.ListThongSo.Count > 0)
+{
+    var cauHinh = ViewBag.ListThongSo as List<Domain.TB_ThongSoCauHinh_TrinhDien>;
+
+    var titleSection = cauHinh.FirstOrDefault(e => e.TenTieuChi == "titleSection");
+    var isShowThumbnail = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowThumbnail");
+    var isShowAvatar = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowAvatar");
+    var isShowDeclarationDay = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowDeclarationDay");
+    var isShowSummary = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowSummary");
+    var isShowTitle = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowTitle");
+    var isShowCategoryName = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowCategoryName");
+    var isTitleSection = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isTitleSection");
+    var isShowPaging = cauHinh.FirstOrDefault(e => e.TenTieuChi == "isShowPaging");
+    var typeView = cauHinh.FirstOrDefault(e => e.TenTieuChi == "typeView");
+    var tenView = cauHinh.FirstOrDefault(x => x.TenView != null);
+    int loaiView = typeView != null && typeView.GiaTriThietLap != null ? Int32.Parse(typeView.GiaTriThietLap) : 0;
+
+    <div id="@tenView.TenView">
+        @if(loaiView != 7 && loaiView <= 13)
+        {
+            var listBaiViet = Model;
+            if (Model != null && Model.Count > 0)
+            {
+                @if (loaiView == 1) // sản phẩm - sản phẩm (có phân trang)
+                {
+                    <div class="list-news document-news sanpham-list row layout-3-col">
+                        @foreach (var item in Model)
+                        {
+                            var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+                            var moTaDaiDien = item.MoTaAnhDaiDien == null || item.MoTaAnhDaiDien == "" ? "" : item.MoTaAnhDaiDien;
+                            string ngayCB = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+                            var url = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                            if (item != null)
+                            {
+                                <div class="item-news item-news-common">
+                                    <div class="news_image">
+                                        @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                        {
+                                            <a class="news_thumb" href="@url" title="@(item.TieuDe != null ? item.TieuDe : "") ">
+                                                <img class="thumb" src="@srcThumbnail" alt="">
+                                            </a>
+                                        }
+                                    </div>
+                                    <div class="news_content">
+                                        @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                        {
+                                            <div class="chuyenmuc_news">
+                                                @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                {
+                                                    <a class="link-title" href="@url">@item.TenChuyenMuc</a>
+                                                }
+                                                @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                {
+                                                    <span class="news_date_public">@ngayCB</span>
+                                                }
+                                            </div>
+                                        }
+                                        @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                        {
+                                            <h4 class="title_news">
+                                                <a class="multiline-ellipsis ellipsis-2-line" href="@url" title="@(item.TieuDe != null ? item.TieuDe : "")">@item.TieuDe</a>
+                                            </h4>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    @if (isShowPaging != null && isShowPaging.GiaTriThietLap == "1" && ViewBag.PageSize < ViewBag.TotalRows)
+                    {
+                        <div class="pagination-wrapper" id="@(tenView.TenView + "_1")">
+                            @Html.PagedListPager((IPagedList)Model, page => Url.Action("_View", "BaiViet", new { pageIndex = page, pageSize = ViewBag.pageSize }),
+        new X.PagedList.Web.Common.PagedListRenderOptions
+        {
+        DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+        DisplayLinkToLastPage = PagedListDisplayMode.Never,
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+        LinkToPreviousPageFormat = "<i class='icon-fluent icon_fluent_chevron_left_filled'></i>",
+        LinkToNextPageFormat = "<i class='icon-fluent icon_fluent_chevron_right_filled'></i>",
+        MaximumPageNumbersToDisplay = 3,
+        UlElementClasses = new[] { "pagination justify-content-end" },
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" }
+        })
+                        </div>
+                        <input hidden id="totalRow" value="@ViewBag.TotalRows" />
+                        <input hidden id="pageSize" value="@ViewBag.PageSize" />
+                    }
+                }
+                else if (loaiView == 2) // tin tuc - trang chu (ko có phân trang)
+                {
+                    <section class="section-news pane-spacing bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        <div class="title title-center">
+                                            @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                            {
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            }
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-row">
+                                        @{
+                                            var firstItem = listBaiViet.FirstOrDefault();
+                                            string ngayCB = string.Format("{0:dd/MM/yyyy}", firstItem.NgayCongBo);
+                                            var url = "/" + firstItem.URLChuyenMuc + "/chi-tiet/" + firstItem.URLBaiViet;
+                                        }
+
+                                        <div class="col-md-6 form-group">
+                                            <div class="item-news item-news-common">
+                                                @* check isShowThumbnail show or not *@
+                                                @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                {
+                                                    <div class="news_image">
+                                                        <a class="news_thumb" href="@url" title="@firstItem.TieuDe">
+                                                            <img class="thumb w-100" src="@firstItem.Thumbnail" alt="@firstItem.TieuDe" w>
+                                                        </a>
+                                                    </div>
+                                                }
+                                                <div class="news_content">
+                                                    <!-- render chuyên mục -->
+                                                    @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="chuyenmuc_news">
+                                                            <a class="link-title" href="@url">@firstItem.TenChuyenMuc</a>
+                                                        </div>
+                                                    }
+                                                    @* check isShowTitle show or not *@
+                                                    @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                    {
+                                                        <h4 class="title_news">
+                                                            <a class="multiline-ellipsis ellipsis-2-line" href="@url" title="@firstItem.TieuDe">@firstItem.TieuDe</a>
+                                                        </h4>
+                                                    }
+                                                    @* check isShowDeclarationDay show or not *@
+                                                    @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                    {
+                                                        <span class="news_date_public">@ngayCB</span>
+                                                    }
+                                                    @* check isShowSummary show or not *@
+                                                    @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                    {
+                                                        <p class="news_description multiline-ellipsis ellipsis-3-line">@firstItem.TomTat</p>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            @for (var i = 1; i < listBaiViet.Count; i++)
+                                            {
+                                                var href = "/" + listBaiViet.ElementAt(i).URLChuyenMuc + "/chi-tiet/" + listBaiViet.ElementAt(i).URLBaiViet;
+                                                string congBo = string.Format("{0:dd/MM/yyyy}", listBaiViet.ElementAt(i).NgayCongBo);
+                                                <div class="item-news item-news-common">
+                                                    @* check isShowThumbnail show or not *@
+                                                    @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="news_image">
+                                                            <a class="news_thumb" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">
+                                                                <img class="thumb" src="@listBaiViet.ElementAt(i).Thumbnail" alt="@listBaiViet.ElementAt(i).TieuDe">
+                                                            </a>
+                                                        </div>
+                                                    }
+                                                    <div class="news_content">
+                                                        <div class="chuyenmuc_news @isShowCategoryName">
+                                                            @* check isShowCategoryName show or not *@
+                                                            @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                            {
+                                                                <a class="link-title">@listBaiViet.ElementAt(i).TenChuyenMuc</a>
+                                                            }
+                                                        </div>
+
+                                                        @* check isShowTitle show or not *@
+                                                        @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                        {
+                                                            <h4 class="title_news">
+                                                                <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">@listBaiViet.ElementAt(i).TieuDe</a>
+                                                            </h4>
+                                                        }
+                                                        @* check isShowDeclarationDay show or not *@
+                                                        @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                        {
+                                                            <span class="news_date_public">@congBo</span>
+                                                        }
+                                                        @* check isShowSummary show or not *@
+                                                        @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                        {
+                                                            <p class="news_description multiline-ellipsis ellipsis-3-line">@listBaiViet.ElementAt(i).TomTat</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+                else if (loaiView == 3) // trang dịch vụ - dịch vụ (có phân trang)
+                {
+                    <div class="list-news document-news dichvu-list row layout-2-col">
+                        @foreach (var item in Model)
+                        {
+                            if (item != null)
+                            {
+
+                                string href = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+
+                                <div class="item-news item-news-common">
+                                    <div class="news_header">
+                                        @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                        {
+                                            <div class="img-icon">
+                                                <img src="@item.Thumbnail" style="width:50px; height:50px" />
+                                            </div>
+                                        }
+                                        @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                        {
+                                            <h4 class="title_news">
+                                                <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@item.TieuDe">@item.TieuDe</a>
+                                            </h4>
+                                        }
+                                    </div>
+                                    @if (isShowAvatar != null && isShowAvatar.GiaTriThietLap == "1")
+                                    {
+                                        <div class="news_image">
+                                            <a class="news_thumb" href="@href" title="@item.TieuDe">
+                                                <img class="thumb" src="@item.AnhDaiDien" alt="@item.TieuDe" />
+                                            </a>
+                                        </div>
+                                    }
+                                    @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                    {
+                                        <div class="news_content">
+                                            <p class="news_description multiline-ellipsis ellipsis-3-line">@item.TomTat</p>
+                                        </div>
+                                    }
+                                    <div class="viewMore-wrapper">
+                                        <a class="viewMore-text" href="@href" title="@item.TieuDe">
+                                            Xem thêm
+                                        </a>
+                                        <i class="fa fa-angle-right view-more-ico"></i>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                    @if (isShowPaging != null && isShowPaging.GiaTriThietLap == "1" && ViewBag.PageSize < ViewBag.TotalRows)
+                    {
+                        <div class="pagination-wrapper" id="@(tenView.TenView + "_1")">
+                            @Html.PagedListPager((IPagedList)Model, page => Url.Action("_View", "BaiViet", new { pageIndex = page }),
+        new X.PagedList.Web.Common.PagedListRenderOptions
+        {
+        DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+        DisplayLinkToLastPage = PagedListDisplayMode.Never,
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+        LinkToPreviousPageFormat = "<i class='icon-fluent icon_fluent_chevron_left_filled'></i>",
+        LinkToNextPageFormat = "<i class='icon-fluent icon_fluent_chevron_right_filled'></i>",
+        MaximumPageNumbersToDisplay = 3,
+        UlElementClasses = new[] { "pagination justify-content-end" },
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" }
+        })
+                        </div>
+                        <input hidden id="totalRow" value="@ViewBag.TotalRows" />
+                        <input hidden id="pageSize" value="@ViewBag.PageSize" />
+                    }
+                }
+                else if (loaiView == 4) // tin tức sự kiện - tin tức (ko có phân trang)
+                {
+                    <section class="section-news tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="form-group form-row">
+                                        @{
+                                            var firstItem = listBaiViet.FirstOrDefault();
+                                            var href = "/" + firstItem.URLChuyenMuc + "/chi-tiet/" + firstItem.URLBaiViet;
+                                            string congBo = string.Format("{0:dd/MM/yyyy}", firstItem.NgayCongBo);
+                                            var srcThumbnail = firstItem.Thumbnail == null || firstItem.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : firstItem.Thumbnail;
+
+                                            <div class="col-md-8 main-pane">
+                                                <div class="item-news item-news-common ">
+                                                    <div class="news_image">
+                                                        <a class="news_thumb" href="@href" title="@firstItem.TieuDe">
+                                                            <img class="thumb" src="@firstItem.Thumbnail" alt="@firstItem.TieuDe">
+                                                        </a>
+                                                    </div>
+                                                    <div class="news_content">
+                                                        <div class="title-wrapper">
+                                                            @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="">
+                                                                    <div class="link-title news-date">@congBo</div>
+                                                                </div>
+                                                            }
+                                                            @* check isShowCategoryName *@
+                                                            @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="chuyenmuc_news">
+                                                                    <a class="link-title">@firstItem.TenChuyenMuc</a>
+                                                                </div>
+                                                            }
+                                                            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                            {
+                                                                <h4 class="title_news">
+                                                                    <a class="multiline-ellipsis ellipsis-3-line" href="@href" title="@firstItem.TieuDe">@firstItem.TieuDe</a>
+                                                                </h4>
+                                                            }
+
+                                                        </div>
+                                                        @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                        {
+                                                            <p class="news_description multiline-ellipsis">@firstItem.TomTat</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        <div class="col-md-4 sub-pane">
+                                            <div class="container-title">
+                                                <div class="title title-arrow">
+                                                    <i class="fa fa-angle-right"></i><label>@titleSection.GiaTriThietLap</label>
+                                                </div>
+                                            </div>
+                                            <div class="newslist-tieudiem-sub">
+                                                @for (var i = 1; i < listBaiViet.Count; i++)
+                                                {
+                                                    var url = "/" + @listBaiViet.ElementAt(i).URLChuyenMuc + "/chi-tiet/" + @listBaiViet.ElementAt(i).URLBaiViet;
+                                                    string tieuDe = listBaiViet.ElementAt(i).TieuDe;
+
+                                                    <div class="item-news item-news-common">
+                                                        <div class="news_content">
+                                                            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="title_news">
+                                                                    <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">@listBaiViet.ElementAt(i).TieuDe</a>
+                                                                </div>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+                else if (loaiView == 5) // tin hoạt động - tin tức không có phân trang
+                {
+                    <section class="section-news tinBaiList-common" style="margin-bottom: 24px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                        {
+                                            <div class="title title-left">
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            </div>
+                                        }
+                                    </div>
+                                    @* <div class="form-group form-row"> *@
+                                    <div class="">
+                                        <div class="newslist">
+                                            @foreach (var item in listBaiViet)
+                                            {
+                                                var href = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                                string congBo = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+                                                var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+
+
+                                                <div class="item-news item-news-common">
+                                                    <div class="news_image">
+                                                        @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                        {
+                                                            <a class="news_thumb" href="@href" title="@item.TieuDe">
+                                                                <img class="thumb" src="@item.Thumbnail" alt="@item.TieuDe">
+                                                            </a>
+                                                        }
+                                                    </div>
+                                                    <div class="news_content">
+                                                        <div class="news_content_head">
+                                                            @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="link-title news-date">@congBo</div>
+                                                            }
+                                                            @* check isShowCategoryName *@
+                                                            @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="chuyenmuc_news">
+                                                                    <a class="link-title link-title-chuyenmuc">@item.TenChuyenMuc</a>
+                                                                </div>
+                                                            }
+                                                            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                            {
+                                                                <h4 class="title_news">
+                                                                    <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@item.TieuDe">@item.TieuDe</a>
+                                                                </h4>
+                                                            }
+                                                        </div>
+                                                        @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                        {
+
+                                                            <p class="news_description multiline-ellipsis ellipsis-3-line">@item.TomTat</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+                else if (loaiView == 6) // danh sach blog - blog (có phân trang)
+                {
+                    <div class="section-news blog-list">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        @* check isTitleSelection *@
+                                        @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                        {
+                                            <div class="title title-left">
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="form-group form-row">
+                                        @foreach (var item in listBaiViet)
+                                        {
+                                            var href = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                            string congBo = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+                                            var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+
+                                            <div class="item-news item-news-common">
+                                                <div class="news_content">
+                                                    @* check isShowCategoryName *@
+                                                    @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="chuyenmuc_news">
+                                                            <a class="link-title">@item.TenChuyenMuc</a>
+                                                        </div>
+                                                    }
+                                                    <div class="title-flex">
+                                                        @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                        {
+
+                                                        }
+                                                        @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                        {
+                                                            <h4 class="title_news">
+                                                                <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@item.TieuDe">@item.TieuDe</a>
+                                                            </h4>
+                                                        }
+                                                    </div>
+                                                    @* check isShowSummary *@
+                                                    @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                    {
+                                                        <p class="news_description multiline-ellipsis ellipsis-3-line">@item.TomTat</p>
+                                                    }
+                                                </div>
+                                                <div class="news_image">
+                                                    <a class="news_thumb" href="@href" title="@item.TieuDe">
+                                                        <img class="thumb" src="@item.Thumbnail" alt="@item.TieuDe">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                    @if (isShowPaging != null && isShowPaging.GiaTriThietLap == "1" && ViewBag.PageSize < ViewBag.TotalRows)
+                                    {
+                                        <div class="pagination-wrapper" id="@(tenView.TenView + "_1")">
+                                            @Html.PagedListPager((IPagedList)Model, page => Url.Action("_View", "BaiViet", new { pageIndex = page, pageSize = ViewBag.PageSize }),
+                        new X.PagedList.Web.Common.PagedListRenderOptions
+                        {
+                        DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+                        DisplayLinkToLastPage = PagedListDisplayMode.Never,
+                        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+                        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+                        DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+                        LinkToPreviousPageFormat = "<i class='icon-fluent icon_fluent_chevron_left_filled'></i>",
+                        LinkToNextPageFormat = "<i class='icon-fluent icon_fluent_chevron_right_filled'></i>",
+                        MaximumPageNumbersToDisplay = 3,
+                        UlElementClasses = new[] { "pagination justify-content-end" },
+                        LiElementClasses = new string[] { "page-item" },
+                        PageClasses = new string[] { "page-link" }
+                        })
+                                        </div>
+                                        <input hidden id="totalRow" value="@ViewBag.TotalRows" />
+                                        <input hidden id="pageSize" value="@ViewBag.PageSize" />
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else if (loaiView == 8) // đọc nhiều nhất - blog (ko có phân trang)
+                {
+                    <section class="section-news tinBaiTieuDiem tinBaiTieuDiem-tinTuc tinbai-mostRead">
+                        <div class="container">
+                            <div class="row">
+                                <div class="sub-pane">
+                                    <div class="container-title">
+                                        <div class="title title-arrow">
+                                            @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                            {
+                                                <i class="fa fa-angle-right"></i>
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="sub-pane">
+                                            @foreach (var item in listBaiViet)
+                                            {
+                                                var href = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                                string congBo = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+                                                <div class="item-news item-news-common">
+                                                    <div class="news_image">
+                                                        @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                        {
+                                                            <a class="news_thumb" href="@href" title="@item.TieuDe">
+                                                                <img class="thumb" src="@item.Thumbnail" alt="@item.TieuDe" />
+                                                            </a>
+                                                        }
+                                                    </div>
+                                                    <div class="news_content">
+                                                        @* check isShowCategoryName *@
+                                                        @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                        {
+                                                            <div class="chuyenmuc_news">
+                                                                <a class="link-title">@item.TenChuyenMuc</a>
+                                                            </div>
+                                                        }
+                                                        <div class="news_content_head">
+                                                            @* check isShowDeclarationDay *@
+                                                            @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="link-title news-date">@congBo</div>
+                                                            }
+                                                            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                            {
+                                                                <h4 class="title_news">
+                                                                    <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@item.TieuDe">@item.TieuDe</a>
+                                                                </h4>
+                                                            }
+                                                        </div>
+                                                        @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                        {
+                                                            <p class="news_description multiline-ellipsis ellipsis-3-line">@item.TomTat</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+                else if (loaiView == 9) // san phẩm - trang chủ (ko có phân trang)
+                {
+                    <section class="section-news pane-spacing bg-gray">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        <div class="title title-center">
+                                            @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                            {
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group form-row col-md-12 row slide-warpper">
+                                    <div class="demo owl-carousel owl-theme news_list owl-listTinBai">
+                                        @foreach (var item in listBaiViet)
+                                        {// var type = "1";
+                                            var url = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+
+                                            var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+                                            var moTaDaiDien = item.MoTaAnhDaiDien == null || item.MoTaAnhDaiDien == "" ? "" : item.MoTaAnhDaiDien;
+                                            string ngayCB = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+
+                                            <div class="item">
+                                                @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                {
+                                                    <div class="img-thumb-wrapper">
+                                                        <a href="@url"><img class="img-thumb" src="@srcThumbnail" alt="@moTaDaiDien" style="width:100%" /></a>
+                                                    </div>
+                                                }
+                                                <div class="content-warpper">
+                                                    @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="">
+                                                            <a href="@url" class="news_link_bold multiline-ellipsis ellipsis-2-line">@item.TieuDe</a>
+                                                        </div>
+                                                    }
+                                                    @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="chuyenmuc_news">
+                                                            <a class="link-title" href="@url">@item.TenChuyenMuc</a>
+                                                            @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                            {
+                                                                <span class="news_date_public">@ngayCB</span>
+                                                            }
+                                                        </div>
+                                                    }
+                                                    @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="news_summary multiline-ellipsis ellipsis-4-line">@item.TomTat</div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            // chạy thư viện owl carousel
+                            $(".owl-listTinBai").owlCarousel({
+                                items: 3,
+                                loop: true,
+                                margin: 24,
+                                //autoplay: false,
+                                autoplay: true,
+                                autoplayTimeout: 5000,
+                                autoplayHoverPause: false,
+                                rewind: true,
+                                dots: false,
+                                nav: true,
+                                navText: ["<i class='icon-fluent icon_fluent_arrow_left_regular'></i>", "<i class='icon-fluent icon_fluent_arrow_right_regular'></i>"],
+                                responsiveClass: true,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    540: {
+                                        items: 1
+                                    },
+                                    767: {
+                                        items: 2
+                                    },
+                                    1000: {
+                                        items: 2
+                                    },
+                                    1140: {
+                                        items: 3
+                                    }
+                                }
+                            });
+                        });
+                    </script>
+                }
+                else if (loaiView == 10) // dich vụ - trang chủ (ko có phân trang)
+                {
+                    <section class="section-news pane-spacing">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        <div class="title title-center">
+                                            @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                            {
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-row layout-3-col">
+                                        @foreach (var item in listBaiViet)
+                                        {
+                                            var url = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                            var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+                                            var moTaDaiDien = item.MoTaAnhDaiDien == null || item.MoTaAnhDaiDien == "" ? "" : item.MoTaAnhDaiDien;
+                                            <div class="item-wrapper">
+                                                @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                {
+                                                    <a href="@url"><img src="@srcThumbnail" alt="@moTaDaiDien" style="width:100px; height:50px" /></a>
+                                                }
+                                                @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                {
+                                                    <div><h4 class="text-blue multiline-ellipsis ellipsis-3-line tieuDe">@item.TieuDe</h4></div>
+                                                }
+                                                @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                {
+                                                    <div class="tomtat-wrapper multiline-ellipsis ellipsis-3-line">@item.TomTat</div>
+                                                }
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+                else if (loaiView == 11) // đào tạo - trang chủ (ko có phân trang)
+                {
+                    <section class="section-news pane-spacing bg-white tinBaiTieuDiem tinBaiTieuDiem-daoTao">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        <div class="title title-center">
+                                            <label>@titleSection.GiaTriThietLap</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group form-row">
+                                        @{
+                                            var firstItem = listBaiViet.FirstOrDefault();
+                                            string ngayCB = string.Format("{0:dd/MM/yyyy}", firstItem.NgayCongBo);
+                                            var url = "/" + @firstItem.URLChuyenMuc + "/chi-tiet/" + @firstItem.URLBaiViet;
+                                            var srcThumbnail = firstItem.Thumbnail == null || firstItem.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : firstItem.Thumbnail;
+                                        }
+
+                                        <div class="col-md-6 form-group main-pane main-pane-slide">
+                                            <div class="demo owl-carousel owl-theme news_list owl-listDaoTao">
+                                                @for (var i = 0; i < listBaiViet.Count; i++)
+                                                {
+                                                    var href = "/" + listBaiViet.ElementAt(i).URLChuyenMuc + "/chi-tiet/" + listBaiViet.ElementAt(i).URLBaiViet;
+                                                    string congBo = string.Format("{0:dd/MM/yyyy}", listBaiViet.ElementAt(i).NgayCongBo);
+                                                    <div class="item">
+                                                        <div class="item-news item-news-common">
+                                                            <div class="news_image">
+                                                                @if (isShowThumbnail != null && isShowThumbnail.GiaTriThietLap == "1")
+                                                                {
+                                                                    <a class="news_thumb" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">
+                                                                        <img class="thumb" src="@listBaiViet.ElementAt(i).Thumbnail" alt="@listBaiViet.ElementAt(i).TieuDe">
+                                                                    </a>
+                                                                }
+                                                            </div>
+                                                            <div class="news_content">
+                                                                @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                                {
+                                                                    <div class="chuyenmuc_news">
+                                                                        <a class="link-title">@listBaiViet.ElementAt(i).TenChuyenMuc</a>
+                                                                    </div>
+                                                                }
+                                                                @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                                {
+                                                                    <h4 class="title_news">
+                                                                        <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">@listBaiViet.ElementAt(i).TieuDe</a>
+                                                                    </h4>
+                                                                }
+                                                                @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                                {
+                                                                    <span class="news_date_public">@ngayCB</span>
+                                                                }
+                                                                @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                                {
+                                                                    <p class="news_description multiline-ellipsis ellipsis-3-line">@listBaiViet.ElementAt(i).TomTat</p>
+                                                                }
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 form-group form-row sub-pane layout-2-col">
+                                            @for (var i = 1; i < listBaiViet.Count; i++)
+                                            {
+                                                var href = listBaiViet.ElementAt(i).URLChuyenMuc + "/chi-tiet/" + listBaiViet.ElementAt(i).URLBaiViet;
+                                                string congBo = string.Format("{0:dd/MM/yyyy}", listBaiViet.ElementAt(i).NgayCongBo);
+                                                <div class="item-news item-news-common">
+                                                    <div class="news_image">
+                                                        <a class="news_thumb" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">
+                                                            <img class="thumb" src="@listBaiViet.ElementAt(i).Thumbnail" alt="@listBaiViet.ElementAt(i).TieuDe">
+                                                        </a>
+                                                    </div>
+                                                    <div class="news_content">
+                                                        @if (isShowCategoryName != null && isShowCategoryName.GiaTriThietLap == "1")
+                                                        {
+                                                            <div class="chuyenmuc_news">
+                                                                <a class="link-title">@listBaiViet.ElementAt(i).TenChuyenMuc</a>
+                                                            </div>
+                                                        }
+
+                                                        @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                        {
+                                                            <h4 class="title_news">
+                                                                <a class="multiline-ellipsis ellipsis-2-line" href="@href" title="@listBaiViet.ElementAt(i).TieuDe">@listBaiViet.ElementAt(i).TieuDe</a>
+                                                            </h4>
+                                                        }
+                                                        @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                        {
+                                                            <span class="news_date_public">@ngayCB</span>
+                                                        }
+                                                        @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                        {
+                                                            <p class="news_description multiline-ellipsis ellipsis-3-line">@listBaiViet.ElementAt(i).TomTat</p>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            // chạy thư viện owl carousel
+                            $(".owl-listDaoTao").owlCarousel({
+                                items: 1,
+                                loop: true,
+                                margin: 0,
+                                autoplay: true,
+                                animateOut: 'fadeOut',
+                                autoplayTimeout: 5000,
+                                autoplayHoverPause: false,
+                                rewind: true,
+                                dots: false,
+                                nav: false,
+                                navText: ["<i class='icon-fluent icon_fluent_arrow_left_regular'></i>", "<i class='icon-fluent icon_fluent_arrow_right_regular'></i>"],
+                                responsiveClass: true,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    540: {
+                                        items: 1
+                                    },
+                                    767: {
+                                        items: 2
+                                    },
+                                    1000: {
+                                        items: 1
+                                    },
+                                    1140: {
+                                        items: 1
+                                    }
+                                }
+                            });
+                        });
+                    </script>
+                }
+                else if (loaiView == 12) // danh sách slide
+                {
+                    <section class="section-news pane-spacing bg-gray">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12 newest-news-slide">
+                                    <div class="container-title">
+                                        <div class="title title-center">
+                                            <label>@titleSection.GiaTriThietLap</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row col-md-12 row slide-warpper">
+                                    <div class="demo owl-carousel owl-theme news_list owl-listTinBai">
+                                        @foreach (var item in listBaiViet)
+                                        {
+                                            var url = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                            var srcThumbnail = item.Thumbnail == null || item.Thumbnail == "" ? "/assets/images/icons/NoImage.png" : item.Thumbnail;
+                                            var moTaDaiDien = item.MoTaAnhDaiDien == null || item.MoTaAnhDaiDien == "" ? "" : item.MoTaAnhDaiDien;
+
+                                            <div class="item">
+                                                <div class="img-thumb-wrapper">
+                                                    <a href="@url"><img class="img-thumb" src="@srcThumbnail" alt="@moTaDaiDien" style="width:100%" /></a>
+                                                </div>
+                                                <div class="content-warpper">
+                                                    @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="">
+                                                            <a href="@url" class="news_link_bold multiline-ellipsis ellipsis-2-line">@item.TieuDe</a>
+                                                        </div>
+                                                    }
+                                                    @if (isShowSummary != null && isShowSummary.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="news_summary multiline-ellipsis ellipsis-4-line">@item.TomTat</div>
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            // chạy thư viện owl carousel
+                            $(".owl-listTinBai").owlCarousel({
+                                items: 8,
+                                loop: true,
+                                margin: 24,
+                                //autoplay: false,
+                                autoplay: true,
+                                autoplayTimeout: 5000,
+                                autoplayHoverPause: false,
+                                rewind: true,
+                                dots: false,
+                                nav: true,
+                                navText: ["<i class='icon-fluent icon_fluent_arrow_left_regular'></i>", "<i class='icon-fluent icon_fluent_arrow_right_regular'></i>"],
+                                responsiveClass: true,
+                                responsive: {
+                                    0: {
+                                        items: 1
+                                    },
+                                    540: {
+                                        items: 1
+                                    },
+                                    767: {
+                                        items: 2
+                                    },
+                                    1000: {
+                                        items: 6
+                                    },
+                                    1140: {
+                                        items: 8
+                                    }
+                                }
+                            });
+                        });
+                    </script>
+                }
+                else if (loaiView == 13)//  dạng list bài viết - blog (có phân trang)
+                {
+                    <section class="section-news tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+                        <div class="container">
+                            <div class="row">
+                                <div class="newest-news-slide">
+                                    <div class="form-group form-row">
+                                        <div class="col-md-12 sub-pane">
+                                            <div class="container-title">
+                                                <div class="title title-arrow">
+                                                    @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                                    {
+                                                        <i class="fa fa-angle-right"></i>
+                                                        <label>@titleSection.GiaTriThietLap</label>
+                                                    }
+                                                </div>
+                                            </div>
+                                            <div class="newslist-tieudiem-sub">
+                                                @foreach (var item in listBaiViet)
+                                                {
+                                                    var url = "/" + item.URLChuyenMuc + "/chi-tiet/" + item.URLBaiViet;
+                                                    string tieuDe = item.TieuDe;
+                                                    string ngayCB = string.Format("{0:dd/MM/yyyy}", item.NgayCongBo);
+
+                                                    <div class="item-news item-news-common">
+                                                        <div class="news_content">
+                                                            @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                            {
+                                                                <div class="title_news">
+                                                                    <a class="multiline-ellipsis ellipsis-2-line" href="@url" title="@tieuDe">
+                                                                        @tieuDe
+                                                                        @if (isShowDeclarationDay != null && isShowDeclarationDay.GiaTriThietLap == "1")
+                                                                        {
+                                                                            <span class="news_date_public" style="color:black">(@ngayCB)</span>
+                                                                        }
+                                                                    </a>
+
+                                                                </div>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+                                            @if (isShowPaging != null && isShowPaging.GiaTriThietLap == "1" && ViewBag.PageSize < ViewBag.TotalRows)
+                                            {
+                                                <div class="pagination-wrapper" id="@(tenView.TenView + "_1")">
+                                                    @Html.PagedListPager((IPagedList)Model, page => Url.Action("_View", "BaiViet", new { pageIndex = page, pageSize = ViewBag.PageSize }),
+                                new X.PagedList.Web.Common.PagedListRenderOptions
+                                {
+                                DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+                                DisplayLinkToLastPage = PagedListDisplayMode.Never,
+                                DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+                                DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+                                DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+                                LinkToPreviousPageFormat = "<i class='icon-fluent icon_fluent_chevron_left_filled'></i>",
+                                LinkToNextPageFormat = "<i class='icon-fluent icon_fluent_chevron_right_filled'></i>",
+                                MaximumPageNumbersToDisplay = 3,
+                                UlElementClasses = new[] { "pagination justify-content-end" },
+                                LiElementClasses = new string[] { "page-item" },
+                                PageClasses = new string[] { "page-link" }
+                                })
+                                                </div>
+                                                <input hidden id="totalRow" value="@ViewBag.TotalRows" />
+                                                <input hidden id="pageSize" value="@ViewBag.PageSize" />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                }
+            }
+            else
+            {
+                <div class="no-data">Không có dữ liệu!</div>
+            }
+        }
+        else if (loaiView == 7)//  chuyen muc - blog (ko có phân trang)
+        {
+            var listChuyenMuc = cauHinh.FirstOrDefault(e => e.TenTieuChi == "category").ListChuyenMuc;
+
+            <section class="section-news tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+                <div class="container">
+                    <div class="row">
+                        <div class="newest-news-slide">
+                            <div class="form-group form-row">
+                                <div class="col-md-12 sub-pane">
+                                    <div class="container-title">
+                                        <div class="title title-arrow">
+                                            @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                                            {
+                                                <i class="fa fa-angle-right"></i>
+                                                <label>@titleSection.GiaTriThietLap</label>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="newslist-tieudiem-sub">
+                                        @foreach (var item in listChuyenMuc)
+                                        {
+                                            var url = "/" + item.URLChuyenMuc; // + "/chi-tiet/" + item.URLBaiViet;
+                                            string tieuDe = item.TenChuyenMuc;
+
+                                            <div class="item-news item-news-common">
+                                                <div class="news_content">
+                                                    @if (isShowTitle != null && isShowTitle.GiaTriThietLap == "1")
+                                                    {
+                                                        <div class="title_news">
+                                                            <a class="multiline-ellipsis ellipsis-2-line" href="@url" title="@tieuDe">@tieuDe</a>
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        }
+        else if (loaiView == 15) //media co-3 row-2
+        {
+            <section class="section-news tinBaiTieuDiem tinBaiTieuDiem-tinTuc">
+                <div class="container-fluid">
+                    <div class="row">
+                        @if (isTitleSection != null && isTitleSection.GiaTriThietLap == "1")
+                        {
+                            <div class="sub-pane">
+                                <div class="container-title">
+                                    <div class="title title-arrow">
+                                        <i class="fa fa-angle-right"></i>
+                                        <label>@titleSection.GiaTriThietLap</label>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <div class="form-row row image-warpper">
+                            <div class="col-md-6 image-item">
+                                <div class="news_thumb">
+                                    <img src="/Upload\BaiViet\2024\HueCIT_Tang-qua-cho-tre-em-ngheo-Thang-Thanh-Nien_1713233549.jpg" width="100%" height="100px" />
+                                </div>
+                                <h4 class="title_news">
+                                    <a class="multiline-ellipsis ellipsis-2-line" href="#">Ảnh 1</a>
+                                </h4>
+                            </div>
+                            <div class="col-md-6 image-item">
+                                <div class="news_thumb">
+                                    <img src="/Upload\BaiViet\2024\HueCIT_Thang-Ba-Bien-Gioi_Don-Bien-Phong-Vinh-Xuan-Thua-Thien-Hue-1_1713233368.jpg" width="100%" height="100px" />
+                                </div>
+                                <h4 class="title_news">
+                                    <a class="multiline-ellipsis ellipsis-2-line" href="#">Ảnh 2</a>
+                                </h4>
+                            </div>
+                            <div class="col-md-6 image-item">
+                                <div class="news_thumb">
+                                    <img src="https://huecit.vn/Portals/0/Medias/Nam2024/T4/HueCIT_Ky-Ket-Dao-Tao-Voi-YST-Han-Quoc-ve-Thuc-Te-Ao-3.jpg" width="100%" height="100px" />
+                                </div>
+                                <h4 class="title_news">
+                                    <a class="multiline-ellipsis ellipsis-2-line" href="#">Ảnh 3</a>
+                                </h4>
+                            </div>
+                            <div class="col-md-6 image-item">
+                                <div class="news_thumb">
+                                    <img src="https://huecit.vn/Portals/0/Medias/Nam2024/T4/HueCIT_Lam-Viec-Voi-EURECA-ACADEMY-LEGO-ROBOTICS-VIETNAM-Ve-Dao-Tao-STEM-1.jpg" width="100%" height="100px" />
+                                </div>
+                                <h4 class="title_news">
+                                    <a class="multiline-ellipsis ellipsis-2-line" href="#">Ảnh 4</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        }
+        else if (loaiView == 16) //góp ý, ý kiến
+        {
+            await Html.RenderPartialAsync("~/Views/Shared/_PartialView/_ViewContent/_FAQ_Feedback.cshtml");
+        }
+        else if (loaiView == 17) //hỏi đáp
+        {
+            await Html.RenderPartialAsync("~/Views/Shared/_PartialView/_ViewContent/_FAQ_Feedback.cshtml");
+        }
+        else if (loaiView == 18) //list góp ý, ý kiến/hỏi đáp
+        {
+            await Html.RenderPartialAsync("~/Views/Shared/_PartialView/_ViewContent/_FAQ_Feedback.cshtml");
+        }
+        else if (loaiView == 19) // banner
+        {
+            var images = cauHinh.Where(e => e.TenTieuChi == "image");
+            <section class="section-news section-news-banner">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="demo owl-carousel owl-theme news_list owl-listBanner">
+                            @if(images != null && images.Any())
+                            {
+                                foreach(var item in images)
+                                {
+                                    <div class="item">
+                                        <img class="thumb" src="@item.GiaTriThietLap" />
+                                    </div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    // chạy thư viện owl carousel
+                    $(".owl-listBanner").owlCarousel({
+                        items: 1,
+                        loop: true,
+                        margin: 0,
+                        autoplay: true,
+                        animateOut: 'fadeOut',
+                        autoplayTimeout: 5000,
+                        autoplayHoverPause: false,
+                        rewind: true,
+                        dots: false,
+                        nav: false,
+                        navText: ["<i class='icon-fluent icon_fluent_arrow_left_regular'></i>", "<i class='icon-fluent icon_fluent_arrow_right_regular'></i>"],
+                        responsiveClass: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            540: {
+                                items: 1
+                            },
+                            767: {
+                                items: 1
+                            },
+                            1000: {
+                                items: 1
+                            },
+                            1140: {
+                                items: 1
+                            }
+                        }
+                    });
+                });
+            </script>
+        }
+    </div>
+}
+else
+{
+    <div class="no-data">Không có dữ liệu!</div>
+}

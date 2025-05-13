@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Shared\_PartialView\_BaiViet\DichVu\**" />
+    <Compile Remove="Views\Shared\_PartialView\_BaiViet\SanPham\**" />
+    <Compile Remove="Views\Shared\_PartialView\_BaiViet\TinTuc\**" />
+    <Content Remove="Views\Shared\_PartialView\_BaiViet\DichVu\**" />
+    <Content Remove="Views\Shared\_PartialView\_BaiViet\SanPham\**" />
+    <Content Remove="Views\Shared\_PartialView\_BaiViet\TinTuc\**" />
+    <EmbeddedResource Remove="Views\Shared\_PartialView\_BaiViet\DichVu\**" />
+    <EmbeddedResource Remove="Views\Shared\_PartialView\_BaiViet\SanPham\**" />
+    <EmbeddedResource Remove="Views\Shared\_PartialView\_BaiViet\TinTuc\**" />
+    <None Remove="Views\Shared\_PartialView\_BaiViet\DichVu\**" />
+    <None Remove="Views\Shared\_PartialView\_BaiViet\SanPham\**" />
+    <None Remove="Views\Shared\_PartialView\_BaiViet\TinTuc\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\BaiViet\DanhSachDichVu.cshtml" />
+    <Content Remove="Views\BaiViet\DanhSachSanPham.cshtml" />
+    <Content Remove="Views\BaiViet\DanhSachTinTuc.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.1.1" />
+    <PackageReference Include="MediaTypeMap" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
+    <PackageReference Include="Quartz" Version="3.8.1" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Persistence\Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\..\..\..\ChuyenDoiSoV2\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Components\Navbar\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\PageScripts\app\" />
+  </ItemGroup>
+
+</Project>

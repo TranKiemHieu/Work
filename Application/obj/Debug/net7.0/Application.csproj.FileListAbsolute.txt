@@ -1,0 +1,68 @@
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Application.deps.json
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Application.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Domain.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Persistence.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Domain.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\bin\Debug\net7.0\Persistence.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\refint\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Application.pdb
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\ref\Application.dll
+D:\P2312_OpenData23_V2\01.MaNguon\Ver1.0_QuanLyTinBai\QLTinBai\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Application.deps.json
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Application.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Application.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\refint\Application.dll
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\Application.pdb
+D:\QLTinBai - Copy\QLTinBai - Copy\Application\obj\Debug\net7.0\ref\Application.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.deps.json
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Domain.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Persistence.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Domain.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Persistence.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\refint\Application.dll
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.pdb
+D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\ref\Application.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.deps.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Application.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Domain.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Persistence.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Domain.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\bin\Debug\net7.0\Persistence.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\Application.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Application\obj\Debug\net7.0\ref\Application.dll

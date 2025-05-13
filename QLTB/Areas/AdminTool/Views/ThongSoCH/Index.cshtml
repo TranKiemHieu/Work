@@ -1,0 +1,182 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+@section VendorCss {
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/23.1.6/css/dx.material.blue.light.css" />
+}
+
+@section Css {
+    <style>
+        div.custom-treeview-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+}
+
+<div class="content-header row">
+    <div class="content-header-left col-md-12">
+        <h3 class="content-header-title mb-0">Danh sách thiết lập cấu hình</h3>
+    </div>
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="form-group col-xl-3 col-lg-5 col-md-6">
+                <div class="search-group">
+                    <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                    <i class="icon-fluent icon_fluent_search_filled icon-search" id="tim-kiem"></i>
+                </div>
+            </div>
+            @if (Model.PermittedCreate == 1)
+            {
+                <div class="form-group group-button-action text-right col-xl-9 col-lg-7 col-md-6">
+                    <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#modalAdd">Thêm mới</button>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper container-fluid">
+            <div class="table-wrapper">
+                <div class="row">
+                    <div class="table-wrapper">
+                        <table class="table row-border compact" id="dataGridSettings">
+                            <thead>
+                                <tr>
+                                    <th>Stt</th>
+                                    <th>Tên thông số</th>
+                                    <th>Loại</th>
+                                    <th>Giá trị thiết lập</th>
+                                    <th>Thứ tự hiển thị</th>
+                                    <th>Sử dụng</th>
+                                    <th>Chức năng</th>
+                                    <th>View</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal add-->
+<div class="modal right fade" id="modalAdd" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Thêm mới thông số cấu hình</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formAdd">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="tenTSAdd" class="form-label">Tên thông số <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="tenTSAdd" maxlength="128">
+                        <div id="checkNameAdd" class="alert-feedback text-danger fade hide">Vui lòng nhập tên thông số!</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="viewAdd" class="form-label">View</label>
+                        <div id="viewAdd" class="dropdownBoxItem"></div>
+                        @* <select class="form-control select-ns" id="viewAdd"></select> *@
+                    </div>
+                    <div class="form-group">
+                        <label for="tcAdd" class="form-label">Tiêu chí</label>
+                        <select class="form-control" id="tcAdd"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="linkedDataAdd" class="form-label">Dữ liệu liên kết</label>
+                        <select class="form-control select-ns" id="linkedDataAdd" disabled>
+                            <option value="">Chọn</option>
+                            <option value="1">Chuyên mục</option>
+                            <option value="2">Bài viết</option>
+                            <option value="3">Media</option>
+                            <option value="4">Kiểu View</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="valueTSAdd">
+                        <label for="txt-Add" class="form-label">Giá trị thiết lập</label>
+                        <input type="text" class="form-control element-item" id="txt-Add" data-type="0" maxlength="128" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="sttAdd" class="form-label">Thứ tự hiển thị <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="sttAdd" maxlength="128">
+                        <div id="checkSTTAdd" class="alert-feedback text-danger fade hide">Vui lòng nhập số thứ tự!</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+<!-- Modal edit-->
+<div class="modal right fade" id="modalEdit" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Cập nhật thông số <span id="tsNameEdit"></span></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <input type="hidden" id="idEdit" value="" />
+                    <input type="hidden" id="loaiEdit" value="" />
+                    <input type="hidden" id="dllkEdit" value="" />
+                    <div class="form-group">
+                        <label for="tenTSEdit" class="form-label">Tên thông số <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="tenTSEdit" maxlength="128">
+                        <div id="checkNameEdit" class="alert-feedback text-danger fade hide">Vui lòng nhập tên thông số!</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="viewEdit" class="form-label">View</label>
+                        <div id="viewEdit" class="dropdownBoxItem"></div>
+                        @* <select class="form-control" id="viewEdit"></select> *@
+                    </div>
+                    <div class="form-group">
+                        <label for="tcEdit" class="form-label">Tiêu chí</label>
+                        <select class="form-control" id="tcEdit"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="linkedDataEdit" class="form-label">Dữ liệu liên kết</label>
+                        <select class="form-control select-ns" id="linkedDataEdit">
+                            <option value="">Chọn</option>
+                            <option value="1">Chuyên mục</option>
+                            <option value="2">Bài viết</option>
+                            <option value="3">Media</option>
+                            <option value="4">Kiểu View</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="valueTSEdit">
+                        <label for="valueEdit" class="form-label">Giá trị thiết lập</label>
+                        <textarea class="form-control" id="valueEdit" rows="3" maxlength="500"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="sttEdit" class="form-label">Thứ tự hiển thị <span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="sttEdit" maxlength="128">
+                        <div id="sttEdit" class="alert-feedback text-danger fade hide">Vui lòng nhập số thứ tự!</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-secondary">Lưu</button>
+                </div>
+            </form>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDelete.cshtml")
+
+@section Scripts {
+    <script>
+        const canEdit = @Model.PermittedEdit;
+        const canDelete = @Model.PermittedDelete;
+    </script>
+    
+    <script src="~/PageScripts/admin/ThongSo.js"></script>
+
+}

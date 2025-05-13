@@ -1,0 +1,221 @@
+﻿@model QLTB.ViewModels.ViewPermissionViewModel
+
+<div class="content-header row">
+    <div class="content-header-left col-md-9">
+        <h3 class="content-header-title mb-0">Danh sách góp ý, ý kiến</h3>
+    </div>
+    @* <div class="content-header-right text-md-right col-md-3">
+    <a class="btn btn-success" asp-area="AdminTool" asp-controller="BaiViet" asp-action="Edit">Thêm mới</a>
+    </div> *@
+</div>
+<div class="content-body">
+    <div class="group-filter">
+        <div class="form-row">
+            <div class="col-grow">
+                <div class="form-row">
+                    <div class="col-md-3 form-group">
+                        <label class="form-label">Từ khóa</label>
+                        <div class="search-group search-icon-left">
+                            <input type="text" class="form-control" id="tu-khoa-search" placeholder="Nhập từ khóa tìm kiếm..." maxlength="1000" />
+                            <i class="icon-fluent icon_fluent_search_filled icon-search"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-3 form-group">
+                        <label class="form-label">Trạng thái</label>
+                        <select class="form-control" id="trang-thai-search">
+                            <option value="-1">Tất cả</option>
+                            <option value="0">Đã tiếp nhận</option>
+                            <option value="1">Đã phản hồi</option>
+                            <option value="2">Đã công bố</option>
+                            <option value="3">Hủy công bố</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 form-group">
+                        <label class="form-label">Thời gian từ ngày</label>
+                        <div class="input-group date dd-mm-yyyy">
+                            <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="tu-ngay-search">
+                            <div class="input-group-addon input-group-append">
+                                <div class="input-group-text">
+                                    <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 form-group">
+                        <label class="form-label">Đến ngày</label>
+                        <div class="input-group date dd-mm-yyyy">
+                            <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="den-ngay-search">
+                            <div class="input-group-addon input-group-append">
+                                <div class="input-group-text">
+                                    <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-basis form-group group-button-action d-flex flex-end">
+                <button type="submit" class="btn btn-secondary" id="btn-filter">Lọc</button>
+                <button type="submit" class="btn btn-outline-light" id="tat-ca">Tất cả</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="table-wrapper">
+            <table class="table row-border compact" id="dataGrid">
+                <thead>
+                    <tr>
+                        <th>Stt</th>
+                        <th>Nội dung</th>
+                        <th>Bài viết</th>
+                        <th>Người gửi</th>
+                        <th>Số điện thoại</th>
+                        <th>Email</th>
+                        <th>Ngày gửi</th>
+                        <th>Trạng thái</th>
+                        <th>Chức năng</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Modal detail-->
+<div class="modal right fade" id="modalDetail" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="titleDetail">Xem chi tiết góp ý, ý kiến</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <form role="form" id="formEdit">
+                <div class="modal-body">
+                    <div class="form-group group-info-feedback">
+                        <span class="info-feedback-item">
+                            <i class="icon-fluent icon_fluent_person_regular"></i><span id="nguoiGuiYKien"></span>
+                        </span>
+                        <span class="info-feedback-item">
+                            <i class="icon-fluent icon_fluent_call_regular"></i><span id="sdtYKien"></span>
+                        </span>
+                        <span class="info-feedback-item">
+                            <i class="icon-fluent icon_fluent_mail_regular"></i><span id="emailYKien"></span>
+                        </span>
+                        <span class="info-feedback-item">
+                            <i class="icon-fluent icon_fluent_calendar_ltr_regular"></i><span id="ngayGuiYKien"></span>
+                        </span>
+                        <span id="trangThaiYKien" class="info-feedback-item">
+                            <i class="icon-fluent icon_fluent_clipboard_text_ltr_filled"></i>
+                        </span>
+                        <span id="baiVietLQYKien" class="info-feedback-item text-blue w-100 d-none">
+                            <!-- <i class="icon-fluent icon_fluent_database_regular"></i><span>Danh sách giá vé tham quan di tích Cố đô Huế</span> -->
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <div id="yKienPhanHoiContent" class="mb-2 group-content-comment text-justify"></div>
+                    </div>
+                    <div class="feedbackBox">
+                        <div id="feedbackBox" class="mb-2 box-blue-light d-none">
+                            <h4 class="box-title">Phản hồi ý kiến</h4>
+                            <div id="traLoiBox" class="form-group group-info-feedback"></div>
+                            <div id="feedbackContent" class="group-content-comment text-justify"></div>
+                        </div>
+                        <div id="groupFeedbackBtnBox" class="form-group group-button-action d-flex"></div>
+                    </div>
+                    <div class="replyFeedbackBox d-none">
+                        <div id="replyFeedbackBox" class="box-blue-light">
+                            <div class="form-group">
+                                <h4 class="box-title mb-0">Trả lời ý kiến</h4>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="organization-reply" class="form-label">Tổ chức</label>
+                                    <select class="form-control" id="organization-reply">
+                                        <option value="-1">Chọn</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="form-label">Ngày phản hồi</label>
+                                    <div class="input-group date dd-mm-yyyy">
+                                        <input type="text" class="form-control" placeholder="dd/MM/yyyy" id="reply-date" value="@(DateTime.Now.ToString("dd/MM/yyyy"))">
+                                        <div class="input-group-addon input-group-append">
+                                            <div class="input-group-text">
+                                                <i class="icon-fluent icon_fluent_calendar_regular"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="replyContent" class="form-label">Nội dung trả lời <span class="text-red">*</span></label>
+                                <textarea id="replyContent" class="form-control" cols="30" rows="5"></textarea>
+                            </div>
+                            <div id="groupReplyBtnBox" class="group-button-action d-flex justify-content-flex-end"></div>
+                        </div>
+                    </div>
+                    <input type="hidden" id="idEdit" value="" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Publish-->
+<div class="modal fade modal-icon" id="modalPublish" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form role="form" id="formPublish">
+                <div class="modal-body">
+                    <input type="hidden" class="form-control" id="idPublish">
+                    <div class="text-center">
+                        <i class="icon-fluent icon_fluent_comment_checkmark_regular text-green"></i>
+                        <span class="d-block mt-20">
+                            Bạn có chắc chắn muốn công bố ý kiến<br>
+                            <span id="fbPublish" class="text-green multiline-ellipsis ellipsis-2-line"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-success">Công bố</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Cancel Publish-->
+<div class="modal fade modal-icon" id="modalCancel" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form role="form" id="formCancel">
+                <div class="modal-body">
+                    <input type="hidden" class="form-control" id="idCancel">
+                    <div class="text-center">
+                        <i class="icon-fluent icon_fluent_comment_dismiss_regular text-gray"></i>
+                        <span class="d-block mt-20">
+                            Bạn có chắc chắn muốn hủy công bố ý kiến<br>
+                            <span id="fbCancel" class="text-gray multiline-ellipsis ellipsis-2-line"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Hủy bỏ</button>
+                    <button type="submit" class="btn btn-dark">Hủy công bố</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Delete-->
+@await Html.PartialAsync("~/Areas/AdminTool/Views/Shared/_PartialView/ModalDelete.cshtml")
+
+@section Scripts {
+    <script>
+        const canEdit = '@Model.PermittedEdit';
+        const canDelete = '@Model.PermittedDelete';
+        const canApprove = '@Model.PermittedApprove';
+    </script>
+    <script src="~/PageScripts/admin/Feedback.js"></script>
+}
