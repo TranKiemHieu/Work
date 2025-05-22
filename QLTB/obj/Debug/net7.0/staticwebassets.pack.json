@@ -69,6 +69,18 @@
       "PackagePath": "staticwebassets\\PageScripts\\admin\\View.js"
     },
     {
+      "Id": "C:\\Future\\Thuctap\\QLTinBai_WebTinTuc\\QLTinBai\\QLTB\\wwwroot\\PageScripts\\app\\ChiTiet_TinTuc.js",
+      "PackagePath": "staticwebassets\\PageScripts\\app\\ChiTiet_TinTuc.js"
+    },
+    {
+      "Id": "C:\\Future\\Thuctap\\QLTinBai_WebTinTuc\\QLTinBai\\QLTB\\wwwroot\\PageScripts\\app\\DanhSach_TinTuc.js",
+      "PackagePath": "staticwebassets\\PageScripts\\app\\DanhSach_TinTuc.js"
+    },
+    {
+      "Id": "C:\\Future\\Thuctap\\QLTinBai_WebTinTuc\\QLTinBai\\QLTB\\wwwroot\\PageScripts\\app\\TinTuc.js",
+      "PackagePath": "staticwebassets\\PageScripts\\app\\TinTuc.js"
+    },
+    {
       "Id": "C:\\Future\\Thuctap\\QLTinBai_WebTinTuc\\QLTinBai\\QLTB\\wwwroot\\StackAdmin\\app-assets\\css-rtl\\app.css",
       "PackagePath": "staticwebassets\\StackAdmin\\app-assets\\css-rtl\\app.css"
     },

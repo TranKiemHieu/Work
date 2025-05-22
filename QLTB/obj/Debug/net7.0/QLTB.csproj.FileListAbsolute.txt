@@ -1206,14 +1206,10 @@ D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLT
 D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
 D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
 D:\QLTinBai_ThucTap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.exe
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
-C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.Development.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\appsettings.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.staticwebassets.runtime.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\Aspose.Cells.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -1491,6 +1487,7 @@ C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcAppl
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.MvcApplicationPartsAssemblyInfo.cache
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cache
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.RazorAssemblyInfo.cs
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.sourcelink.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.build.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets.development.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\staticwebassets\msbuild.QLTB.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1505,5 +1502,9 @@ C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.csproj.
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\refint\QLTB.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.pdb
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.deps.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.runtimeconfig.json
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.dll
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\bin\Debug\net7.0\QLTB.pdb
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\QLTB.genruntimeconfig.cache
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\QLTB\obj\Debug\net7.0\ref\QLTB.dll

@@ -60,6 +60,7 @@ C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persi
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.sourcelink.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persiste.61C28332.Up2Date
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\Persistence.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Persistence\obj\Debug\net7.0\refint\Persistence.dll

@@ -59,8 +59,4 @@
     <None Include="Views\Shared\Components\Navbar\Default.cshtml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\PageScripts\app\" />
-  </ItemGroup>
-
 </Project>

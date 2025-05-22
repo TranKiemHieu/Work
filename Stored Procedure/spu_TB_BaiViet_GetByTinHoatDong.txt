@@ -1,0 +1,13 @@
+USE [TinTuc]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER procedure [dbo].[spu_TB_BaiViet_GetByTinHoatDong]
+as
+begin
+	select * from TB_BaiViet where ChuyenMucID = '92729D2A-9C36-4D7B-82E4-FB7FFA8C6A59'
+end

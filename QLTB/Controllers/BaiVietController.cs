@@ -113,7 +113,9 @@ namespace QLTB.Controllers
                 ViewData["Title"] = baiViet.TieuDe;
                 ViewData["Description"] = baiViet.TieuDe.ToLower() + "|HueCIT";
                 ViewData["Keywords"] = baiViet.TuKhoa + ", HueCIT";
+                //Note:
                 ViewBag.BaiVietID = baiViet.ID;
+                ViewBag.URLBaiViet = baiViet.URLBaiViet;
 
                 var chuyenMuc = _context.TB_ChuyenMuc.Where(e => e.URLChuyenMuc == urlcm).FirstOrDefault();
 

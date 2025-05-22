@@ -42,6 +42,7 @@ C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.Gen
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.sourcelink.json
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\Future\Thuctap\QLTinBai_WebTinTuc\QLTinBai\Domain\obj\Debug\net7.0\Domain.pdb

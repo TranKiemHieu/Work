@@ -1,0 +1,15 @@
+USE [TinTuc]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[spu_TB_BaiViet_GetByTinTuc]
+as
+begin
+	select * from TB_BaiViet where ChuyenMucID = '94F2B4CE-4E63-40E5-BAB6-02C662DB6978'
+	order by LastModifiedOnDate desc
+	offset 1 Rows
+	FETCH NEXT 3 ROWS ONLY
+end
