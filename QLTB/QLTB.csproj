@@ -59,4 +59,8 @@
     <None Include="Views\Shared\Components\Navbar\Default.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\images\tintuc\" />
+  </ItemGroup>
+
 </Project>

@@ -1,24 +1,40 @@
 ﻿$(document).ready(function () {
+    const pathParts = window.location.pathname.split('/');
+    const urlBaiViet = decodeURIComponent(pathParts[pathParts.length - 1]);
+
     if (!urlBaiViet) {
         $('#section-main-detail-content').html('<p>Không xác định được bài viết.</p>');
         return;
     }
 
+    loadArticleDetail(urlBaiViet);
+
+    loadSidebar("#section-sidebar-1", "hoat-dong-doan-the");
+    loadSidebar("#section-sidebar-2", "tin-chuyen-nganh");
+});
+
+function loadArticleDetail(urlBaiViet) {
     $.ajax({
         url: `/api/tin-tuc/chi-tiet/tid/${urlBaiViet}`,
         method: 'GET',
         success: function (res) {
-            console.log('Chi tiet', res)
             if (res && res.isSuccess && res.value) {
                 const item = res.value;
 
                 let html = `
                     <div class="news-detail">
-                        <h1 class="mb-3">${item.tieuDe}</h1>
-                        <p><small>Ngày đăng: ${formatDate(item.ngayCongBo)} | Lượt xem: ${item.luotXem || 0}</small></p>
-                        ${item.anhDaiDien ? `<img src="${item.anhDaiDien}" alt="${item.moTaAnhDaiDien || item.tieuDe}" class="img-fluid my-3" />` : ''}
+                        <h1 class="news-title">${item.tieuDe}</h1>
+                        <div class="news-meta">
+                            <small><i class="bi bi-calendar-event me-1"></i> ${formatDate(item.ngayCongBo)} 
+                            | <i class="bi bi-eye me-1"></i> ${item.luotXem || 0} lượt xem</small>
+                        </div>
+                        ${item.anhDaiDien ? `
+                            <div class="text-center">
+                                <img src="${item.anhDaiDien}" alt="${item.moTaAnhDaiDien || item.tieuDe}" class="img-fluid rounded" />
+                            </div>` : ''
+                    }
                         <p class="lead">${item.tomTat}</p>
-                        <div class="content">${item.noiDung}</div>
+                        <div class="news-content">${item.noiDung}</div>
                     </div>
                 `;
 
@@ -31,28 +47,36 @@
             $('#section-main-detail-content').html('<p>Lỗi khi tải chi tiết bài viết.</p>');
         }
     });
+}
 
-    // Load sidebar tùy theo chuyên mục
-    loadSidebar("#section-sidebar-1", "hoat-dong-doan-the");
-    loadSidebar("#section-sidebar-2", "tin-chuyen-nganh");    
-});
 
-// Hàm gọi API để nạp dữ liệu vào sidebar
 function loadSidebar(targetId, apiEndpoint) {
     $.ajax({
-        url: `/api/tin-tuc/${apiEndpoint}`,
+        url: `/api/tin-tuc/danh-sach/${apiEndpoint}`,
         method: 'GET',
         success: function (res) {
             if (res && res.isSuccess && res.value?.length > 0) {
-                let html = '<ul class="list-group">';
-                res.value.forEach(item => {
+                let title = apiEndpoint === "hoat-dong-doan-the" ? "Hoạt động đoàn thể" : "Tin chuyên ngành";
+
+                let html = `
+                    <div class="sidebar-section">
+                        <h5>${title}</h5>
+                        <ul class="sidebar-list">
+                `;
+
+                res.value.slice(0, 5).forEach(item => {
                     html += `
-                        <li class="list-group-item">
-                            <a href="/tin-tuc/chi-tiet/${item.id}">${item.tieuDe}</a>
+                        <li>
+                            <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}">${item.tieuDe}</a>
                         </li>
                     `;
                 });
-                html += '</ul>';
+
+                html += `
+                        </ul>
+                    </div>
+                `;
+
                 $(targetId).html(html);
             } else {
                 $(targetId).html('<p>Không có dữ liệu.</p>');
@@ -63,6 +87,7 @@ function loadSidebar(targetId, apiEndpoint) {
         }
     });
 }
+
 
 function formatDate(dateStr) {
     if (!dateStr) return '';

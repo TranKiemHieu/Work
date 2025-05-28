@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using QLTB.Interface;
+using System.Text;
 
 namespace QLTB.Services
 {
@@ -18,6 +19,19 @@ namespace QLTB.Services
         {
             _tinTucRepository = tinTucRepository;
             _context = context;
+        }
+
+        private string NormalizeUrl(string input)
+        {
+            return input
+                .Replace("“", "\"") // hoặc ""
+                .Replace("”", "\"") // hoặc ""
+                .Replace("‘", "'")
+                .Replace("’", "'")
+                .Replace("–", "-")
+                .Replace("—", "-")
+                .Replace("…", "...")
+                .Normalize(NormalizationForm.FormC); // Chuẩn hóa Unicode
         }
 
         [AllowAnonymous]
@@ -88,7 +102,7 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("hoat-dong-doan-the")]
+        [Route("danh-sach/hoat-dong-doan-the")]
         public async Task<IActionResult> GetHoatDongDoanThe()
         {
             try
@@ -104,7 +118,7 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("tin-hoat-dong-1")]
+        [Route("danh-sach/tin-hoat-dong-1")]
         public async Task<IActionResult> GetTinHoatDong()
         {
             try
@@ -120,7 +134,7 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("tin-chuyen-nganh")]
+        [Route("danh-sach/tin-chuyen-nganh")]
         public async Task<IActionResult> GetTinChuyenNganh()
         {
             try
@@ -149,6 +163,61 @@ namespace QLTB.Services
                 return BadRequest(ex.Message);
             }
         }
+
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("{url}/{page:int}")]
+        public async Task<IActionResult> GetBaiVietByChuyenMuc(string url, int page, int pageSize = 5)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(url))
+                    return BadRequest("Thiếu tham số chuyên mục");
+
+                List<TB_BaiViet> allArticles = new List<TB_BaiViet>();
+
+                if (url == "tin-chuyen-nganh")
+                {
+                    allArticles = (await _tinTucRepository.GetTinChuyenNganh()).Value;
+                }
+                else if (url == "tin-hoat-dong-1")
+                {
+                    allArticles = (await _tinTucRepository.GetTinHoatDong()).Value;
+                }
+                else if (url == "hoat-dong-doan-the")
+                {
+                    allArticles = (await _tinTucRepository.GetHoatDongDoanThe()).Value;
+                }
+                else
+                {
+                    return NotFound("Không tìm thấy chuyên mục phù hợp.");
+                }
+
+                var total = allArticles.Count;
+
+                var paginated = allArticles
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
+
+                var result = new
+                {
+                    total,
+                    page,
+                    pageSize,
+                    totalPages = (int)Math.Ceiling((double)total / pageSize),
+                    data = paginated
+                };
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
 
     }
 }
