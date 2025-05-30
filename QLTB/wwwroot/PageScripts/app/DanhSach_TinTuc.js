@@ -45,13 +45,14 @@ function loadArticles(page, urlChuyenMuc) {
                     const ngay = ngayThang.getDate()
                     const thang = ngayThang.getMonth() + 1
                     const nam = ngayThang.getFullYear()
+                    const encodeURL = encodeURIComponent(item.urlBaiViet);
 
                     html += `
                         <div class="news-item">
                             <div class="row">
                                 <div class="col-md-5">
                                     <div class="news-image">
-                                        <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}">
+                                        <a href="/tin-tuc/chi-tiet/${encodeURL}">
                                             <img src="${item.anhDaiDien || item.thumbnail || "/placeholder.svg?height=200&width=300"}" 
                                                 alt="${item.moTaAnhDaiDien || item.tieuDe}" class="img-fluid">
                                         </a>

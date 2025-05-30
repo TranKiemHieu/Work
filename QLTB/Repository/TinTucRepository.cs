@@ -56,15 +56,15 @@ namespace QLTB.Repository
             }
         }
 
-        public async Task<Result<TB_BaiViet>> GetBaiVietById(Guid? idBaiViet)
+        public async Task<Result<TB_BaiViet>> GetBaiVietByURLChuyenMuc(string URLChuyenMuc)
         {
             try
             {
                 using (var conn = _connectDB.IConnectData())
                 {
                     conn.Open();
-                    var sp = "dbo.spu_TB_BaiViet_GetById"; // tên stored proceduce
-                    var parameters = new { ID = idBaiViet };
+                    var sp = "dbo.spu_TB_BaiViet_GetByURLChuyenMuc"; // tên stored proceduce
+                    var parameters = new { URLChuyenMuc = URLChuyenMuc };
 
                     var result = await conn.QueryFirstOrDefaultAsync<TB_BaiViet>(new CommandDefinition(sp, parameters, commandType: System.Data.CommandType.StoredProcedure));
                     //xử lý kết quả trả trước khi trả về (nếu có)

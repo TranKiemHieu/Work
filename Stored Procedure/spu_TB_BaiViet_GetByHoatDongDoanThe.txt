@@ -9,4 +9,5 @@ ALTER procedure [dbo].[spu_TB_BaiViet_GetByHoatDongDoanThe]
 as
 begin
 	select * from TB_BaiViet where ChuyenMucID = '8A10D607-10F1-47C2-BA82-EC243C8E9145'
+	order by NgayCongBo desc
 end

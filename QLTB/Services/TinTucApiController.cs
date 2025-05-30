@@ -51,22 +51,6 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("tin-tieu-diem")]
-        public async Task<IActionResult> GetBaiVietTieuDiem()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetBaiVietTieuDiem();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
         [Route("chi-tiet/tid/{urlBaiViet}")]
         public async Task<IActionResult> GetBaiViet(string urlBaiViet)
         {
@@ -86,12 +70,12 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("chi-tiet/{idBaiViet}")]
-        public async Task<IActionResult> GetBaiVietById(Guid? idBaiViet)
+        [Route("by-chuyen-muc/{URLChuyenMuc}")]
+        public async Task<IActionResult> GetBaiVietByURLChuyenMuc(string URLChuyenMuc)
         {
             try
             {
-                var result = await _tinTucRepository.GetBaiVietById(idBaiViet);
+                var result = await _tinTucRepository.GetBaiVietByURLChuyenMuc(URLChuyenMuc);
                 return Ok(result);
             }
             catch (Exception ex)
@@ -150,7 +134,7 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("tin-tuc-su-kien")]
+        [Route("danh-sach/tin-tuc")]
         public async Task<IActionResult> GetTinTuc()
         {
             try

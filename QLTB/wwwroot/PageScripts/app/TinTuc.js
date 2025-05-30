@@ -10,9 +10,9 @@ function loadTinTieuDiem() {
         '<div class="loading-spinner"><i class="fa fa-spinner fa-spin"></i> Đang tải dữ liệu...</div>',
     )
 
-    $.get("/api/tin-tuc/tin-tieu-diem", (res) => {
+    $.get("/api/tin-tuc/danh-sach/tin-tuc", (res) => {
         if (res && res.isSuccess && res.value) {
-            const item = res.value
+            const item = res.value[0]
             const ngayThang = new Date(item.ngayCongBo)
             const ngay = ngayThang.getDate()
             const thang = ngayThang.getMonth() + 1
@@ -173,7 +173,7 @@ function loadTinTucSuKien() {
         "</div>",
     )
 
-    $.get("/api/tin-tuc/tin-tuc-su-kien", (res) => {
+    $.get("/api/tin-tuc/danh-sach/tin-tuc", (res) => {
         if (res && res.isSuccess && res.value.length > 0) {
             let html =
                 '<div class="sidebar-box">' +
@@ -181,7 +181,7 @@ function loadTinTucSuKien() {
                 '<div class="sidebar-content">'
 
             res.value.forEach((item, index) => {
-                if (index < 5) {
+                if (index >= 1 && index < 5) {
                     // Giới hạn hiển thị 5 tin
                     html += `
             <div class="sidebar-news-item">

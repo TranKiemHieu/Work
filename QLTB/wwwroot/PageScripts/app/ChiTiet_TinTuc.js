@@ -65,9 +65,10 @@ function loadSidebar(targetId, apiEndpoint) {
                 `;
 
                 res.value.slice(0, 5).forEach(item => {
+                    const encodeURL = encodeURIComponent(item.urlBaiViet);
                     html += `
                         <li>
-                            <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}">${item.tieuDe}</a>
+                            <a href="/tin-tuc/chi-tiet/${encodeURL}">${item.tieuDe}</a>
                         </li>
                     `;
                 });
