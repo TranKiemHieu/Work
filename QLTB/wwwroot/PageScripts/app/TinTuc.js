@@ -52,60 +52,60 @@ function loadTinTieuDiem() {
 function loadTinHoatDong() {
     $("#tin-hoat-dong").html(
         '<div class="section-header"><h2 class="section-title">TIN HOẠT ĐỘNG</h2></div>' +
-        '<div class="loading-spinner"><i class="fa fa-spinner fa-spin"></i> Đang tải dữ liệu...</div>',
-    )
+        '<div class="loading-spinner"><i class="fa fa-spinner fa-spin"></i> Đang tải dữ liệu...</div>'
+    );
 
     $.get("/api/tin-tuc/danh-sach/tin-hoat-dong-1", (res) => {
         if (res && res.isSuccess && res.value.length > 0) {
-            let html = '<div class="section-header"><h2 class="section-title"><a href="/tin-hoat-dong-1/act/1" style="color: inherit; text-decoration: none;">TIN HOẠT ĐỘNG</a></h2></div>'
+            let html = '<div class="section-header"><h2 class="section-title"><a href="/tin-hoat-dong-1/act/1" style="color: inherit; text-decoration: none;">TIN HOẠT ĐỘNG</a></h2></div>';
 
             res.value.forEach((item, index) => {
                 if (index < 3) {
-                    // Giới hạn hiển thị 3 tin
-                    const ngayThang = new Date(item.ngayCongBo)
-                    const ngay = ngayThang.getDate()
-                    const thang = ngayThang.getMonth() + 1
-                    const nam = ngayThang.getFullYear()
+                    const ngayThang = new Date(item.ngayCongBo);
+                    const ngay = ngayThang.getDate();
+                    const thang = ngayThang.getMonth() + 1;
+                    const nam = ngayThang.getFullYear();
 
                     html += `
-            <div class="tin-tuc-item">
-              <div class="row">
-                <div class="col-md-4">
-                  <img src="${item.anhDaiDien || item.thumbnail || "/placeholder.svg?height=200&width=300"}" alt="${item.moTaAnhDaiDien || item.tieuDe}" class="img-fluid tin-tuc-image">
-                </div>
-                <div class="col-md-8">
-                  <div class="tin-tuc-date">
-                    <span class="tin-tuc-day">${ngay}</span>
-                    <span class="tin-tuc-month">${thang}.${nam}</span>
-                  </div>
-                  <h3 class="tin-tuc-title">
-                    <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}">${item.tieuDe}</a>
-                  </h3>
-                  <div class="tin-tuc-excerpt">
-                    ${item.tomTat}
-                  </div>
-                  <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}" class="tin-tuc-readmore">xem tiếp <i class="fa fa-angle-right"></i></a>
-                </div>
-              </div>
-            </div>
-          `
+                        <div class="tin-tuc-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="${item.anhDaiDien || item.thumbnail || "/placeholder.svg?height=200&width=300"}" alt="${item.moTaAnhDaiDien || item.tieuDe}" class="img-fluid tin-tuc-image">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="tin-tuc-date">
+                                        <span class="tin-tuc-day">${ngay}</span>
+                                        <span class="tin-tuc-month">${thang}.${nam}</span>
+                                    </div>
+                                    <h3 class="tin-tuc-title">
+                                        <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}">${item.tieuDe}</a>
+                                    </h3>
+                                    <div class="tin-tuc-excerpt">
+                                        ${item.tomTat || ""}
+                                    </div>
+                                    <a href="/tin-tuc/chi-tiet/${item.urlBaiViet}" class="tin-tuc-readmore">xem tiếp <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
                 }
-            })
+            });
 
-            $("#tin-hoat-dong").html(html)
+            $("#tin-hoat-dong").html(html);
         } else {
             $("#tin-hoat-dong").html(
                 '<div class="section-header"><h2 class="section-title">TIN HOẠT ĐỘNG</h2></div>' +
-                '<div class="alert alert-info">Không có tin hoạt động nào.</div>',
-            )
+                '<div class="alert alert-info">Không có tin hoạt động nào.</div>'
+            );
         }
     }).fail(() => {
         $("#tin-hoat-dong").html(
             '<div class="section-header"><h2 class="section-title">TIN HOẠT ĐỘNG</h2></div>' +
-            '<div class="alert alert-danger">Không thể tải dữ liệu tin hoạt động.</div>',
-        )
-    })
+            '<div class="alert alert-danger">Không thể tải dữ liệu tin hoạt động.</div>'
+        );
+    });
 }
+
 
 function loadTinChuyenNganh() {
     $("#tin-chuyen-nganh").html(

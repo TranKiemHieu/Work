@@ -21,34 +21,6 @@ namespace QLTB.Services
             _context = context;
         }
 
-        private string NormalizeUrl(string input)
-        {
-            return input
-                .Replace("“", "\"") // hoặc ""
-                .Replace("”", "\"") // hoặc ""
-                .Replace("‘", "'")
-                .Replace("’", "'")
-                .Replace("–", "-")
-                .Replace("—", "-")
-                .Replace("…", "...")
-                .Normalize(NormalizationForm.FormC); // Chuẩn hóa Unicode
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
-        public async Task<IActionResult> GetAllBaiViet()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetAllBaiViet();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
         [AllowAnonymous]
         [HttpGet]
         [Route("chi-tiet/tid/{urlBaiViet}")]
@@ -70,76 +42,12 @@ namespace QLTB.Services
 
         [AllowAnonymous]
         [HttpGet]
-        [Route("by-chuyen-muc/{URLChuyenMuc}")]
+        [Route("danh-sach/{URLChuyenMuc}")]
         public async Task<IActionResult> GetBaiVietByURLChuyenMuc(string URLChuyenMuc)
         {
             try
             {
                 var result = await _tinTucRepository.GetBaiVietByURLChuyenMuc(URLChuyenMuc);
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
-        [Route("danh-sach/hoat-dong-doan-the")]
-        public async Task<IActionResult> GetHoatDongDoanThe()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetHoatDongDoanThe();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
-        [Route("danh-sach/tin-hoat-dong-1")]
-        public async Task<IActionResult> GetTinHoatDong()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetTinHoatDong();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
-        [Route("danh-sach/tin-chuyen-nganh")]
-        public async Task<IActionResult> GetTinChuyenNganh()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetTinChuyenNganh();
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        [AllowAnonymous]
-        [HttpGet]
-        [Route("danh-sach/tin-tuc")]
-        public async Task<IActionResult> GetTinTuc()
-        {
-            try
-            {
-                var result = await _tinTucRepository.GetTinTuc();
                 return Ok(result);
             }
             catch (Exception ex)
@@ -158,25 +66,12 @@ namespace QLTB.Services
                 if (string.IsNullOrEmpty(url))
                     return BadRequest("Thiếu tham số chuyên mục");
 
-                List<TB_BaiViet> allArticles = new List<TB_BaiViet>();
+                var result = await _tinTucRepository.GetBaiVietByURLChuyenMuc(url);
 
-                if (url == "tin-chuyen-nganh")
-                {
-                    allArticles = (await _tinTucRepository.GetTinChuyenNganh()).Value;
-                }
-                else if (url == "tin-hoat-dong-1")
-                {
-                    allArticles = (await _tinTucRepository.GetTinHoatDong()).Value;
-                }
-                else if (url == "hoat-dong-doan-the")
-                {
-                    allArticles = (await _tinTucRepository.GetHoatDongDoanThe()).Value;
-                }
-                else
-                {
-                    return NotFound("Không tìm thấy chuyên mục phù hợp.");
-                }
+                if (!result.IsSuccess || result.Value == null)
+                    return NotFound(result.Error ?? "Không tìm thấy bài viết.");
 
+                var allArticles = result.Value;
                 var total = allArticles.Count;
 
                 var paginated = allArticles
@@ -184,16 +79,14 @@ namespace QLTB.Services
                     .Take(pageSize)
                     .ToList();
 
-                var result = new
+                return Ok(new
                 {
                     total,
                     page,
                     pageSize,
                     totalPages = (int)Math.Ceiling((double)total / pageSize),
                     data = paginated
-                };
-
-                return Ok(result);
+                });
             }
             catch (Exception ex)
             {

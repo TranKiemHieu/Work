@@ -1,0 +1,16 @@
+USE [TinTuc]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[spu_TB_BaiViet_GetByURLChuyenMuc]
+	@URLChuyenMuc nvarchar(250)
+AS 
+begin
+	select TB_BaiViet.* from TB_BaiViet, TB_ChuyenMuc
+	where TB_BaiViet.ChuyenMucID = TB_ChuyenMuc.ID
+	and URLChuyenMuc = @URLChuyenMuc
+	ORDER BY TB_BaiViet.NgayCongBo DESC
+end
